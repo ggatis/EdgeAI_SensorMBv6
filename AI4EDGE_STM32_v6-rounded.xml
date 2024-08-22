@@ -1,0 +1,2435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>H:\CADmani\AI4EDGE\AI4EDGE_STM32_v6-rounded.kicad_sch</source>
+    <date>28.02.2024 11:04:37</date>
+    <tool>Eeschema (6.0.11)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>AI4EDGE_STM32_v6-rounded.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188C80J106MEA6-01A.pdf</datasheet>
+      <fields>
+        <field name="Description">10 µF ±20% 6.3V Ceramic Capacitor X6S 0603</field>
+        <field name="Link">https://www.digikey.lv/en/products/detail/murata-electronics/GRM188C80J106MEA6J/10704296</field>
+        <field name="MANUFACTURER">Murata Electronics</field>
+        <field name="MPN">GRM188C80J106MEA6J</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="MANUFACTURER" value="Murata Electronics"/>
+      <property name="MPN" value="GRM188C80J106MEA6J"/>
+      <property name="Description" value="10 µF ±20% 6.3V Ceramic Capacitor X6S 0603"/>
+      <property name="Link" value="https://www.digikey.lv/en/products/detail/murata-electronics/GRM188C80J106MEA6J/10704296"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>60234021-3a66-4b6d-8d5b-58ecb33d9400</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GP_NP0_16V-to-50V_18.pdf</datasheet>
+      <fields>
+        <field name="Description">100 pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)</field>
+        <field name="Link">https://www.digikey.lv/en/products/detail/yageo/CC0603JRNPO9BN101/302803</field>
+        <field name="MANUFACTURER">YAGEO</field>
+        <field name="MPN">CC0603JRNPO9BN101</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Description" value="100 pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"/>
+      <property name="Link" value="https://www.digikey.lv/en/products/detail/yageo/CC0603JRNPO9BN101/302803"/>
+      <property name="MANUFACTURER" value="YAGEO"/>
+      <property name="MPN" value="CC0603JRNPO9BN101"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8c66abd1-6750-4ebc-a91f-b1d56dad4d87</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GP_NP0_16V-to-50V_18.pdf</datasheet>
+      <fields>
+        <field name="Description">100 pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)</field>
+        <field name="Link">https://www.digikey.lv/en/products/detail/yageo/CC0603JRNPO9BN101/302803</field>
+        <field name="MANUFACTURER">YAGEO</field>
+        <field name="MPN">CC0603JRNPO9BN101</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Description" value="100 pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"/>
+      <property name="Link" value="https://www.digikey.lv/en/products/detail/yageo/CC0603JRNPO9BN101/302803"/>
+      <property name="MANUFACTURER" value="YAGEO"/>
+      <property name="MPN" value="CC0603JRNPO9BN101"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7bdd3745-cc3e-4988-ace1-89e9ef3279f8</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/43/CL05X105KQ5NNNC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Description">1 µF ±10% 6.3V Ceramic Capacitor X6S 0402</field>
+        <field name="Link">https://www.digikey.lv/en/products/detail/samsung-electro-mechanics/CL05X105KQ5NNNC/3887412?s=N4IgTCBcDaIMIBkAMBWAGgRlQaQIooDki4QBdAXyA</field>
+        <field name="MANUFACTURER">Samsung Electro-Mechanics</field>
+        <field name="MPN">CL05X105KQ5NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
+      <property name="MPN" value="CL05X105KQ5NNNC"/>
+      <property name="Description" value="1 µF ±10% 6.3V Ceramic Capacitor X6S 0402"/>
+      <property name="Link" value="https://www.digikey.lv/en/products/detail/samsung-electro-mechanics/CL05X105KQ5NNNC/3887412?s=N4IgTCBcDaIMIBkAMBWAGgRlQaQIooDki4QBdAXyA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d10558a0-2594-4e2c-8142-74c651576e2b</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>100</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GP_NP0_16V-to-50V_18.pdf</datasheet>
+      <fields>
+        <field name="Description">100 pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)</field>
+        <field name="Link">https://www.digikey.lv/en/products/detail/yageo/CC0603JRNPO9BN101/302803</field>
+        <field name="MANUFACTURER">YAGEO</field>
+        <field name="MPN">CC0603JRNPO9BN101</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Description" value="100 pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"/>
+      <property name="Link" value="https://www.digikey.lv/en/products/detail/yageo/CC0603JRNPO9BN101/302803"/>
+      <property name="MANUFACTURER" value="YAGEO"/>
+      <property name="MPN" value="CC0603JRNPO9BN101"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9773ddd1-bcb3-4caa-897d-0b7ccc87e695</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188C80J106MEA6-01A.pdf</datasheet>
+      <fields>
+        <field name="Description">10 µF ±20% 6.3V Ceramic Capacitor X6S 0603</field>
+        <field name="Link">https://www.digikey.lv/en/products/detail/murata-electronics/GRM188C80J106MEA6J/10704296</field>
+        <field name="MANUFACTURER">Murata Electronics</field>
+        <field name="MPN">GRM188C80J106MEA6J</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="MANUFACTURER" value="Murata Electronics"/>
+      <property name="MPN" value="GRM188C80J106MEA6J"/>
+      <property name="Description" value="10 µF ±20% 6.3V Ceramic Capacitor X6S 0603"/>
+      <property name="Link" value="https://www.digikey.lv/en/products/detail/murata-electronics/GRM188C80J106MEA6J/10704296"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1d43acc5-6053-4724-8628-9c63516bcd69</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188C80J106MEA6-01A.pdf</datasheet>
+      <fields>
+        <field name="Description">10 µF ±20% 6.3V Ceramic Capacitor X6S 0603</field>
+        <field name="Link">https://www.digikey.lv/en/products/detail/murata-electronics/GRM188C80J106MEA6J/10704296</field>
+        <field name="MANUFACTURER">Murata Electronics</field>
+        <field name="MPN">GRM188C80J106MEA6J</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="MANUFACTURER" value="Murata Electronics"/>
+      <property name="MPN" value="GRM188C80J106MEA6J"/>
+      <property name="Description" value="10 µF ±20% 6.3V Ceramic Capacitor X6S 0603"/>
+      <property name="Link" value="https://www.digikey.lv/en/products/detail/murata-electronics/GRM188C80J106MEA6J/10704296"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d6d59653-b8fb-4049-a66c-6b45a4dc5928</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188C80J106MEA6-01A.pdf</datasheet>
+      <fields>
+        <field name="Description">10 µF ±20% 6.3V Ceramic Capacitor X6S 0603</field>
+        <field name="Link">https://www.digikey.lv/en/products/detail/murata-electronics/GRM188C80J106MEA6J/10704296</field>
+        <field name="MANUFACTURER">Murata Electronics</field>
+        <field name="MPN">GRM188C80J106MEA6J</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="MANUFACTURER" value="Murata Electronics"/>
+      <property name="MPN" value="GRM188C80J106MEA6J"/>
+      <property name="Description" value="10 µF ±20% 6.3V Ceramic Capacitor X6S 0603"/>
+      <property name="Link" value="https://www.digikey.lv/en/products/detail/murata-electronics/GRM188C80J106MEA6J/10704296"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cb5606ef-38c1-4def-9568-d9e5d1cc0c7e</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/43/CL05X105KQ5NNNC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Description">1 µF ±10% 6.3V Ceramic Capacitor X6S 0402</field>
+        <field name="Link">https://www.digikey.lv/en/products/detail/samsung-electro-mechanics/CL05X105KQ5NNNC/3887412?s=N4IgTCBcDaIMIBkAMBWAGgRlQaQIooDki4QBdAXyA</field>
+        <field name="MANUFACTURER">Samsung Electro-Mechanics</field>
+        <field name="MPN">CL05X105KQ5NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
+      <property name="MPN" value="CL05X105KQ5NNNC"/>
+      <property name="Description" value="1 µF ±10% 6.3V Ceramic Capacitor X6S 0402"/>
+      <property name="Link" value="https://www.digikey.lv/en/products/detail/samsung-electro-mechanics/CL05X105KQ5NNNC/3887412?s=N4IgTCBcDaIMIBkAMBWAGgRlQaQIooDki4QBdAXyA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>72e742ad-2fc7-452c-9bf0-f0dcbcea1e21</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/43/CL05X105KQ5NNNC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Description">1 µF ±10% 6.3V Ceramic Capacitor X6S 0402</field>
+        <field name="Link">https://www.digikey.lv/en/products/detail/samsung-electro-mechanics/CL05X105KQ5NNNC/3887412?s=N4IgTCBcDaIMIBkAMBWAGgRlQaQIooDki4QBdAXyA</field>
+        <field name="MANUFACTURER">Samsung Electro-Mechanics</field>
+        <field name="MPN">CL05X105KQ5NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
+      <property name="MPN" value="CL05X105KQ5NNNC"/>
+      <property name="Description" value="1 µF ±10% 6.3V Ceramic Capacitor X6S 0402"/>
+      <property name="Link" value="https://www.digikey.lv/en/products/detail/samsung-electro-mechanics/CL05X105KQ5NNNC/3887412?s=N4IgTCBcDaIMIBkAMBWAGgRlQaQIooDki4QBdAXyA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dad2c1c1-679a-4f58-9243-5e182f8e2fae</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/43/CL05X105KQ5NNNC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Description">1 µF ±10% 6.3V Ceramic Capacitor X6S 0402</field>
+        <field name="Link">https://www.digikey.lv/en/products/detail/samsung-electro-mechanics/CL05X105KQ5NNNC/3887412?s=N4IgTCBcDaIMIBkAMBWAGgRlQaQIooDki4QBdAXyA</field>
+        <field name="MANUFACTURER">Samsung Electro-Mechanics</field>
+        <field name="MPN">CL05X105KQ5NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
+      <property name="MPN" value="CL05X105KQ5NNNC"/>
+      <property name="Description" value="1 µF ±10% 6.3V Ceramic Capacitor X6S 0402"/>
+      <property name="Link" value="https://www.digikey.lv/en/products/detail/samsung-electro-mechanics/CL05X105KQ5NNNC/3887412?s=N4IgTCBcDaIMIBkAMBWAGgRlQaQIooDki4QBdAXyA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3329f49d-9ac3-4d79-ad91-58c8af41b4ae</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/43/CL05X105KQ5NNNC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Description">1 µF ±10% 6.3V Ceramic Capacitor X6S 0402</field>
+        <field name="Link">https://www.digikey.lv/en/products/detail/samsung-electro-mechanics/CL05X105KQ5NNNC/3887412?s=N4IgTCBcDaIMIBkAMBWAGgRlQaQIooDki4QBdAXyA</field>
+        <field name="MANUFACTURER">Samsung Electro-Mechanics</field>
+        <field name="MPN">CL05X105KQ5NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
+      <property name="MPN" value="CL05X105KQ5NNNC"/>
+      <property name="Description" value="1 µF ±10% 6.3V Ceramic Capacitor X6S 0402"/>
+      <property name="Link" value="https://www.digikey.lv/en/products/detail/samsung-electro-mechanics/CL05X105KQ5NNNC/3887412?s=N4IgTCBcDaIMIBkAMBWAGgRlQaQIooDki4QBdAXyA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>499eebbb-535f-4ca6-b2a9-1c7b1965f1da</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/43/CL05X105KQ5NNNC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Description">1 µF ±10% 6.3V Ceramic Capacitor X6S 0402</field>
+        <field name="Link">https://www.digikey.lv/en/products/detail/samsung-electro-mechanics/CL05X105KQ5NNNC/3887412?s=N4IgTCBcDaIMIBkAMBWAGgRlQaQIooDki4QBdAXyA</field>
+        <field name="MANUFACTURER">Samsung Electro-Mechanics</field>
+        <field name="MPN">CL05X105KQ5NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
+      <property name="MPN" value="CL05X105KQ5NNNC"/>
+      <property name="Description" value="1 µF ±10% 6.3V Ceramic Capacitor X6S 0402"/>
+      <property name="Link" value="https://www.digikey.lv/en/products/detail/samsung-electro-mechanics/CL05X105KQ5NNNC/3887412?s=N4IgTCBcDaIMIBkAMBWAGgRlQaQIooDki4QBdAXyA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8d12f0f9-4b79-437a-b217-8ea5d336eae9</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/43/CL05X105KQ5NNNC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Description">1 µF ±10% 6.3V Ceramic Capacitor X6S 0402</field>
+        <field name="Link">https://www.digikey.lv/en/products/detail/samsung-electro-mechanics/CL05X105KQ5NNNC/3887412?s=N4IgTCBcDaIMIBkAMBWAGgRlQaQIooDki4QBdAXyA</field>
+        <field name="MANUFACTURER">Samsung Electro-Mechanics</field>
+        <field name="MPN">CL05X105KQ5NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
+      <property name="MPN" value="CL05X105KQ5NNNC"/>
+      <property name="Description" value="1 µF ±10% 6.3V Ceramic Capacitor X6S 0402"/>
+      <property name="Link" value="https://www.digikey.lv/en/products/detail/samsung-electro-mechanics/CL05X105KQ5NNNC/3887412?s=N4IgTCBcDaIMIBkAMBWAGgRlQaQIooDki4QBdAXyA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7f9f1eb0-fee0-4bfb-bf0a-0721f0e42c02</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/43/CL05X105KQ5NNNC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Description">1 µF ±10% 6.3V Ceramic Capacitor X6S 0402</field>
+        <field name="Link">https://www.digikey.lv/en/products/detail/samsung-electro-mechanics/CL05X105KQ5NNNC/3887412?s=N4IgTCBcDaIMIBkAMBWAGgRlQaQIooDki4QBdAXyA</field>
+        <field name="MANUFACTURER">Samsung Electro-Mechanics</field>
+        <field name="MPN">CL05X105KQ5NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
+      <property name="MPN" value="CL05X105KQ5NNNC"/>
+      <property name="Description" value="1 µF ±10% 6.3V Ceramic Capacitor X6S 0402"/>
+      <property name="Link" value="https://www.digikey.lv/en/products/detail/samsung-electro-mechanics/CL05X105KQ5NNNC/3887412?s=N4IgTCBcDaIMIBkAMBWAGgRlQaQIooDki4QBdAXyA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a38d6cdc-934d-448c-88c4-05cd3f58b45d</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/43/CL05X105KQ5NNNC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Description">1 µF ±10% 6.3V Ceramic Capacitor X6S 0402</field>
+        <field name="Link">https://www.digikey.lv/en/products/detail/samsung-electro-mechanics/CL05X105KQ5NNNC/3887412?s=N4IgTCBcDaIMIBkAMBWAGgRlQaQIooDki4QBdAXyA</field>
+        <field name="MANUFACTURER">Samsung Electro-Mechanics</field>
+        <field name="MPN">CL05X105KQ5NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
+      <property name="MPN" value="CL05X105KQ5NNNC"/>
+      <property name="Description" value="1 µF ±10% 6.3V Ceramic Capacitor X6S 0402"/>
+      <property name="Link" value="https://www.digikey.lv/en/products/detail/samsung-electro-mechanics/CL05X105KQ5NNNC/3887412?s=N4IgTCBcDaIMIBkAMBWAGgRlQaQIooDki4QBdAXyA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4d1408b3-773f-45e8-b6b6-9b159e2b3ab4</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/43/CL05X105KQ5NNNC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Description">1 µF ±10% 6.3V Ceramic Capacitor X6S 0402</field>
+        <field name="Link">https://www.digikey.lv/en/products/detail/samsung-electro-mechanics/CL05X105KQ5NNNC/3887412?s=N4IgTCBcDaIMIBkAMBWAGgRlQaQIooDki4QBdAXyA</field>
+        <field name="MANUFACTURER">Samsung Electro-Mechanics</field>
+        <field name="MPN">CL05X105KQ5NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
+      <property name="MPN" value="CL05X105KQ5NNNC"/>
+      <property name="Description" value="1 µF ±10% 6.3V Ceramic Capacitor X6S 0402"/>
+      <property name="Link" value="https://www.digikey.lv/en/products/detail/samsung-electro-mechanics/CL05X105KQ5NNNC/3887412?s=N4IgTCBcDaIMIBkAMBWAGgRlQaQIooDki4QBdAXyA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dee5dec1-6c2a-4180-a42c-7099640a6d11</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/43/CL05X105KQ5NNNC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Description">1 µF ±10% 6.3V Ceramic Capacitor X6S 0402</field>
+        <field name="Link">https://www.digikey.lv/en/products/detail/samsung-electro-mechanics/CL05X105KQ5NNNC/3887412?s=N4IgTCBcDaIMIBkAMBWAGgRlQaQIooDki4QBdAXyA</field>
+        <field name="MANUFACTURER">Samsung Electro-Mechanics</field>
+        <field name="MPN">CL05X105KQ5NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
+      <property name="MPN" value="CL05X105KQ5NNNC"/>
+      <property name="Description" value="1 µF ±10% 6.3V Ceramic Capacitor X6S 0402"/>
+      <property name="Link" value="https://www.digikey.lv/en/products/detail/samsung-electro-mechanics/CL05X105KQ5NNNC/3887412?s=N4IgTCBcDaIMIBkAMBWAGgRlQaQIooDki4QBdAXyA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>50e08a7b-f90b-4e75-a7e2-5050e39ae566</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/43/CL05X105KQ5NNNC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Description">1 µF ±10% 6.3V Ceramic Capacitor X6S 0402</field>
+        <field name="Link">https://www.digikey.lv/en/products/detail/samsung-electro-mechanics/CL05X105KQ5NNNC/3887412?s=N4IgTCBcDaIMIBkAMBWAGgRlQaQIooDki4QBdAXyA</field>
+        <field name="MANUFACTURER">Samsung Electro-Mechanics</field>
+        <field name="MPN">CL05X105KQ5NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
+      <property name="MPN" value="CL05X105KQ5NNNC"/>
+      <property name="Description" value="1 µF ±10% 6.3V Ceramic Capacitor X6S 0402"/>
+      <property name="Link" value="https://www.digikey.lv/en/products/detail/samsung-electro-mechanics/CL05X105KQ5NNNC/3887412?s=N4IgTCBcDaIMIBkAMBWAGgRlQaQIooDki4QBdAXyA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>165bfa7b-9474-4f5f-8d9c-450015ee2819</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/43/CL05X105KQ5NNNC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Description">1 µF ±10% 6.3V Ceramic Capacitor X6S 0402</field>
+        <field name="Link">https://www.digikey.lv/en/products/detail/samsung-electro-mechanics/CL05X105KQ5NNNC/3887412?s=N4IgTCBcDaIMIBkAMBWAGgRlQaQIooDki4QBdAXyA</field>
+        <field name="MANUFACTURER">Samsung Electro-Mechanics</field>
+        <field name="MPN">CL05X105KQ5NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
+      <property name="MPN" value="CL05X105KQ5NNNC"/>
+      <property name="Description" value="1 µF ±10% 6.3V Ceramic Capacitor X6S 0402"/>
+      <property name="Link" value="https://www.digikey.lv/en/products/detail/samsung-electro-mechanics/CL05X105KQ5NNNC/3887412?s=N4IgTCBcDaIMIBkAMBWAGgRlQaQIooDki4QBdAXyA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9ef160c9-363e-4bbc-915b-07166d4589a8</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188C80J106MEA6-01A.pdf</datasheet>
+      <fields>
+        <field name="Description">10 µF ±20% 6.3V Ceramic Capacitor X6S 0603</field>
+        <field name="Link">https://www.digikey.lv/en/products/detail/murata-electronics/GRM188C80J106MEA6J/10704296</field>
+        <field name="MANUFACTURER">Murata Electronics</field>
+        <field name="MPN">GRM188C80J106MEA6J</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="MANUFACTURER" value="Murata Electronics"/>
+      <property name="MPN" value="GRM188C80J106MEA6J"/>
+      <property name="Description" value="10 µF ±20% 6.3V Ceramic Capacitor X6S 0603"/>
+      <property name="Link" value="https://www.digikey.lv/en/products/detail/murata-electronics/GRM188C80J106MEA6J/10704296"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>826803e8-a30f-43da-83bb-f6f44052ceec</tstamps>
+    </comp>
+    <comp ref="C22">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188C80J106MEA6-01A.pdf</datasheet>
+      <fields>
+        <field name="Description">10 µF ±20% 6.3V Ceramic Capacitor X6S 0603</field>
+        <field name="Link">https://www.digikey.lv/en/products/detail/murata-electronics/GRM188C80J106MEA6J/10704296</field>
+        <field name="MANUFACTURER">Murata Electronics</field>
+        <field name="MPN">GRM188C80J106MEA6J</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="MANUFACTURER" value="Murata Electronics"/>
+      <property name="MPN" value="GRM188C80J106MEA6J"/>
+      <property name="Description" value="10 µF ±20% 6.3V Ceramic Capacitor X6S 0603"/>
+      <property name="Link" value="https://www.digikey.lv/en/products/detail/murata-electronics/GRM188C80J106MEA6J/10704296"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>810e0027-c752-4ee9-a51c-63fe9bfb3765</tstamps>
+    </comp>
+    <comp ref="C23">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188C80J106MEA6-01A.pdf</datasheet>
+      <fields>
+        <field name="Description">10 µF ±20% 6.3V Ceramic Capacitor X6S 0603</field>
+        <field name="Link">https://www.digikey.lv/en/products/detail/murata-electronics/GRM188C80J106MEA6J/10704296</field>
+        <field name="MANUFACTURER">Murata Electronics</field>
+        <field name="MPN">GRM188C80J106MEA6J</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="MANUFACTURER" value="Murata Electronics"/>
+      <property name="MPN" value="GRM188C80J106MEA6J"/>
+      <property name="Description" value="10 µF ±20% 6.3V Ceramic Capacitor X6S 0603"/>
+      <property name="Link" value="https://www.digikey.lv/en/products/detail/murata-electronics/GRM188C80J106MEA6J/10704296"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a5d91263-8fe0-4967-8ca9-9ca65dcaeef5</tstamps>
+    </comp>
+    <comp ref="C24">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188C80J106MEA6-01A.pdf</datasheet>
+      <fields>
+        <field name="Description">10 µF ±20% 6.3V Ceramic Capacitor X6S 0603</field>
+        <field name="Link">https://www.digikey.lv/en/products/detail/murata-electronics/GRM188C80J106MEA6J/10704296</field>
+        <field name="MANUFACTURER">Murata Electronics</field>
+        <field name="MPN">GRM188C80J106MEA6J</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="MANUFACTURER" value="Murata Electronics"/>
+      <property name="MPN" value="GRM188C80J106MEA6J"/>
+      <property name="Description" value="10 µF ±20% 6.3V Ceramic Capacitor X6S 0603"/>
+      <property name="Link" value="https://www.digikey.lv/en/products/detail/murata-electronics/GRM188C80J106MEA6J/10704296"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>683bf015-4c27-4a2f-9ca3-2d4d89c84c51</tstamps>
+    </comp>
+    <comp ref="C25">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188C80J106MEA6-01A.pdf</datasheet>
+      <fields>
+        <field name="Description">10 µF ±20% 6.3V Ceramic Capacitor X6S 0603</field>
+        <field name="Link">https://www.digikey.lv/en/products/detail/murata-electronics/GRM188C80J106MEA6J/10704296</field>
+        <field name="MANUFACTURER">Murata Electronics</field>
+        <field name="MPN">GRM188C80J106MEA6J</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="MANUFACTURER" value="Murata Electronics"/>
+      <property name="MPN" value="GRM188C80J106MEA6J"/>
+      <property name="Description" value="10 µF ±20% 6.3V Ceramic Capacitor X6S 0603"/>
+      <property name="Link" value="https://www.digikey.lv/en/products/detail/murata-electronics/GRM188C80J106MEA6J/10704296"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1111a8c1-c235-4828-8d37-1a2c68ebbc75</tstamps>
+    </comp>
+    <comp ref="C26">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188C80J106MEA6-01A.pdf</datasheet>
+      <fields>
+        <field name="Description">10 µF ±20% 6.3V Ceramic Capacitor X6S 0603</field>
+        <field name="Link">https://www.digikey.lv/en/products/detail/murata-electronics/GRM188C80J106MEA6J/10704296</field>
+        <field name="MANUFACTURER">Murata Electronics</field>
+        <field name="MPN">GRM188C80J106MEA6J</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="MANUFACTURER" value="Murata Electronics"/>
+      <property name="MPN" value="GRM188C80J106MEA6J"/>
+      <property name="Description" value="10 µF ±20% 6.3V Ceramic Capacitor X6S 0603"/>
+      <property name="Link" value="https://www.digikey.lv/en/products/detail/murata-electronics/GRM188C80J106MEA6J/10704296"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aac4f03e-59de-4161-b9fb-2eca810e460f</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>Green</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="Description">Green 530nm LED Indication - Discrete 2.9V 0603 (1608 Metric) 247.5mcd</field>
+        <field name="Link">https://www.digikey.lv/en/products/detail/ams-osram-usa-inc/LT-Q99G-01-R2T1-25-1/21556499</field>
+        <field name="MANUFACTURER">ams-OSRAM USA INC.</field>
+        <field name="MPN">LT Q99G.01-R2T1-25-1</field>
+      </fields>
+      <libsource lib="device_KC5" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <property name="Description" value="Green 530nm LED Indication - Discrete 2.9V 0603 (1608 Metric) 247.5mcd"/>
+      <property name="Link" value="https://www.digikey.lv/en/products/detail/ams-osram-usa-inc/LT-Q99G-01-R2T1-25-1/21556499"/>
+      <property name="MANUFACTURER" value="ams-OSRAM USA INC."/>
+      <property name="MPN" value="LT Q99G.01-R2T1-25-1"/>
+      <property name="Datasheet2" value=""/>
+      <property name="Description2" value=""/>
+      <property name="Link2" value=""/>
+      <property name="MPN2" value=""/>
+      <property name="Manufacturer2" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>401ff943-8e73-4a2f-8829-7fa7a36b3300</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>Red</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>https://www.qt-brightek.com/datasheet/QBLP661-XX5.pdf</datasheet>
+      <fields>
+        <field name="Description">Red 620nm LED Indication - Discrete 1.8V 0603 (1608 Metric) 60mcd</field>
+        <field name="Link">https://www.digikey.lv/en/products/detail/qt-brightek-qtb/QBLP661-R5/14664267</field>
+        <field name="MANUFACTURER">QT Brightek (QTB)</field>
+        <field name="MPN">QBLP661-R5</field>
+      </fields>
+      <libsource lib="device_KC5" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <property name="Description" value="Red 620nm LED Indication - Discrete 1.8V 0603 (1608 Metric) 60mcd"/>
+      <property name="Link" value="https://www.digikey.lv/en/products/detail/qt-brightek-qtb/QBLP661-R5/14664267"/>
+      <property name="MANUFACTURER" value="QT Brightek (QTB)"/>
+      <property name="MPN" value="QBLP661-R5"/>
+      <property name="Datasheet2" value=""/>
+      <property name="Description2" value=""/>
+      <property name="Link2" value=""/>
+      <property name="MPN2" value=""/>
+      <property name="Manufacturer2" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>824a84da-ba3c-47c6-8f28-a97b36798b7d</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>BAT30CWFILM</value>
+      <footprint>Package_TO_SOT_SMD:SOT-323_SC-70</footprint>
+      <datasheet>https://www.st.com/content/ccc/resource/technical/document/datasheet/b5/44/50/dc/a4/84/48/70/CD00126118.pdf/files/CD00126118.pdf/jcr:content/translations/en.CD00126118.pdf</datasheet>
+      <fields>
+        <field name="Datasheet2">https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf</field>
+        <field name="Description">Diode Array 1 Pair Common Cathode 5µA@30V 530mV@300mA Fast Recovery =&lt; 500ns 150°C SC-70/SOT-323</field>
+        <field name="Link">https://www.digikey.lv/en/products/detail/stmicroelectronics/BAT30CWFILM/1207017?s=N4IgjCBcoKwOwAYqgMZQGYEMA2BnApgDQgD2UA2iACwIIDMcAHCALrEAOALlCAMqcAnAJYA7AOYgAvsQCccCNBBpIWPEVIVqCAEzxWHbpD6DRE6SDnbkSjDgLEykSmBpVtEYi4RUwcEJ5gANhk6Zk9GbW0I-RAuHn5hcSlPbRkFVFs1B00aGCo4GH8tPLg-YhoEMBlC8towRioYuKME02TwGUYZa2VVew0nECQWc0jA9JsVO3VHShg6BAACAFsANUWAAUWFpeWAQSbDEABhEgBXdmx8ABMAVREhTgB5dABZfExcM4F8doBaKyKZSCM4zTSFEbmQLWITXHh-MCVIrNEBFTgAT3YvyMnzQkkkQA</field>
+        <field name="MANUFACTURER">STMicroelectronics</field>
+        <field name="MPN">BAT30CWFILM</field>
+        <field name="MPN2">BAT54CW</field>
+      </fields>
+      <libsource lib="Diode" part="BAT54CW" description="Dual schottky barrier diode, common cathode, SOT-323"/>
+      <property name="MPN" value="BAT30CWFILM"/>
+      <property name="Manufacturer" value=""/>
+      <property name="Link" value="https://www.digikey.lv/en/products/detail/stmicroelectronics/BAT30CWFILM/1207017?s=N4IgjCBcoKwOwAYqgMZQGYEMA2BnApgDQgD2UA2iACwIIDMcAHCALrEAOALlCAMqcAnAJYA7AOYgAvsQCccCNBBpIWPEVIVqCAEzxWHbpD6DRE6SDnbkSjDgLEykSmBpVtEYi4RUwcEJ5gANhk6Zk9GbW0I-RAuHn5hcSlPbRkFVFs1B00aGCo4GH8tPLg-YhoEMBlC8towRioYuKME02TwGUYZa2VVew0nECQWc0jA9JsVO3VHShg6BAACAFsANUWAAUWFpeWAQSbDEABhEgBXdmx8ABMAVREhTgB5dABZfExcM4F8doBaKyKZSCM4zTSFEbmQLWITXHh-MCVIrNEBFTgAT3YvyMnzQkkkQA"/>
+      <property name="MPN2" value="BAT54CW"/>
+      <property name="Datasheet2" value="https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf"/>
+      <property name="Manufacturer2" value=""/>
+      <property name="Description" value="Diode Array 1 Pair Common Cathode 5µA@30V 530mV@300mA Fast Recovery =&lt; 500ns 150°C SC-70/SOT-323"/>
+      <property name="MANUFACTURER" value="STMicroelectronics"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>12a26a4a-2d07-44af-b895-e7e196819fb4</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>Yellow</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>https://www.qt-brightek.com/datasheet/QBLP601-Y5-2897.pdf</datasheet>
+      <fields>
+        <field name="Datasheet2">https://www.kingbrightusa.com/images/catalog/SPEC/APT1608LZGCK.pdf</field>
+        <field name="Description">Yellow 590nm LED Indication - Discrete 1.9V 0603 (1608 Metric) 95mcd</field>
+        <field name="Description2">Green 525nm LED Indication - Discrete 2.65V 0603 (1608 Metric)</field>
+        <field name="Link">https://www.digikey.lv/en/products/detail/qt-brightek-qtb/QBLP601-Y5-2897/22106639</field>
+        <field name="Link2">https://www.digikey.lv/en/products/filter/led-indication-discrete/105?s=N4IgjCBcpgbFoDGUBmBDANgZwKYBoQB7KAbRAGYBOAJgBZ4BdAgBwBcoQBlVgJwEsAdgHMQAXwLkA7AhDJI6bPiKkKAVjBhVADhBMQbDt37CxBWJRlyFuAsUhlaABkpVyulu0hdegkeJCqtG7QsqiYNsr24LBa1I7wBHCxsLQgiTHUMWnRsZKO2UnUkhB6Bl5GvqYB6pZhirYqWuRB%2BQRalFpB2ZRB5Dqlnt7GfokdFiFW4Up2ZPkM-gC01LWQvACu0yqquqL%2By1EAMgCiACIABPGO5GdCPDg4Au4g8CF8ACYcC2COEB4c2QBHVgATw4vxAIOYOA4aCwyF2QA</field>
+        <field name="MANUFACTURER">QT Brightek (QTB)</field>
+        <field name="MPN">QBLP601-Y5-2897</field>
+        <field name="MPN2">APT1608LZGCK</field>
+        <field name="Manufacturer2">Kingbright</field>
+      </fields>
+      <libsource lib="device_KC5" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <property name="Description" value="Yellow 590nm LED Indication - Discrete 1.9V 0603 (1608 Metric) 95mcd"/>
+      <property name="Link" value="https://www.digikey.lv/en/products/detail/qt-brightek-qtb/QBLP601-Y5-2897/22106639"/>
+      <property name="MANUFACTURER" value="QT Brightek (QTB)"/>
+      <property name="MPN" value="QBLP601-Y5-2897"/>
+      <property name="Datasheet2" value="https://www.kingbrightusa.com/images/catalog/SPEC/APT1608LZGCK.pdf"/>
+      <property name="Description2" value="Green 525nm LED Indication - Discrete 2.65V 0603 (1608 Metric)"/>
+      <property name="Link2" value="https://www.digikey.lv/en/products/filter/led-indication-discrete/105?s=N4IgjCBcpgbFoDGUBmBDANgZwKYBoQB7KAbRAGYBOAJgBZ4BdAgBwBcoQBlVgJwEsAdgHMQAXwLkA7AhDJI6bPiKkKAVjBhVADhBMQbDt37CxBWJRlyFuAsUhlaABkpVyulu0hdegkeJCqtG7QsqiYNsr24LBa1I7wBHCxsLQgiTHUMWnRsZKO2UnUkhB6Bl5GvqYB6pZhirYqWuRB%2BQRalFpB2ZRB5Dqlnt7GfokdFiFW4Up2ZPkM-gC01LWQvACu0yqquqL%2By1EAMgCiACIABPGO5GdCPDg4Au4g8CF8ACYcC2COEB4c2QBHVgATw4vxAIOYOA4aCwyF2QA"/>
+      <property name="MPN2" value="APT1608LZGCK"/>
+      <property name="Manufacturer2" value="Kingbright"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ffb519be-400b-4505-bb38-606ba68cb550</tstamps>
+    </comp>
+    <comp ref="FB1">
+      <value>600</value>
+      <footprint>Ferrite_SMD_AKL:Ferrite_0603_1608Metric</footprint>
+      <datasheet>https://www.bourns.com/docs/Product-Datasheets/mh.pdf</datasheet>
+      <fields>
+        <field name="Description">600Ohms@100MHz Power/Signal Line Ferrite Bead 0603 1A 200mOhm</field>
+        <field name="Link">https://www.digikey.lv/en/products/detail/bourns-inc/MH1608-601Y/2563317</field>
+        <field name="MANUFACTURER">Bourns Inc.</field>
+        <field name="MPN">MH1608-601Y</field>
+      </fields>
+      <libsource lib="device_KC5" part="Ferrite_Bead_Small" description="Ferrite bead, small symbol"/>
+      <property name="Description" value="600Ohms@100MHz Power/Signal Line Ferrite Bead 0603 1A 200mOhm"/>
+      <property name="Link" value="https://www.digikey.lv/en/products/detail/bourns-inc/MH1608-601Y/2563317"/>
+      <property name="MANUFACTURER" value="Bourns Inc."/>
+      <property name="MPN" value="MH1608-601Y"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c81d062c-51dd-4313-80c3-4a00b6ab70df</tstamps>
+    </comp>
+    <comp ref="FB2">
+      <value>600</value>
+      <footprint>Ferrite_SMD_AKL:Ferrite_0603_1608Metric</footprint>
+      <datasheet>https://www.bourns.com/docs/Product-Datasheets/mh.pdf</datasheet>
+      <fields>
+        <field name="Description">600Ohms@100MHz Power/Signal Line Ferrite Bead 0603 1A 200mOhm</field>
+        <field name="Link">https://www.digikey.lv/en/products/detail/bourns-inc/MH1608-601Y/2563317</field>
+        <field name="MANUFACTURER">Bourns Inc.</field>
+        <field name="MPN">MH1608-601Y</field>
+      </fields>
+      <libsource lib="device_KC5" part="Ferrite_Bead_Small" description="Ferrite bead, small symbol"/>
+      <property name="Description" value="600Ohms@100MHz Power/Signal Line Ferrite Bead 0603 1A 200mOhm"/>
+      <property name="Link" value="https://www.digikey.lv/en/products/detail/bourns-inc/MH1608-601Y/2563317"/>
+      <property name="MANUFACTURER" value="Bourns Inc."/>
+      <property name="MPN" value="MH1608-601Y"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>92004e78-5899-4508-9747-7fc4643de350</tstamps>
+    </comp>
+    <comp ref="FB3">
+      <value>600</value>
+      <footprint>Ferrite_SMD_AKL:Ferrite_0603_1608Metric</footprint>
+      <datasheet>https://www.bourns.com/docs/Product-Datasheets/mh.pdf</datasheet>
+      <fields>
+        <field name="Description">600Ohms@100MHz Power/Signal Line Ferrite Bead 0603 1A 200mOhm</field>
+        <field name="Link">https://www.digikey.lv/en/products/detail/bourns-inc/MH1608-601Y/2563317</field>
+        <field name="MANUFACTURER">Bourns Inc.</field>
+        <field name="MPN">MH1608-601Y</field>
+      </fields>
+      <libsource lib="device_KC5" part="Ferrite_Bead_Small" description="Ferrite bead, small symbol"/>
+      <property name="MPN" value="MH1608-601Y"/>
+      <property name="Description" value="600Ohms@100MHz Power/Signal Line Ferrite Bead 0603 1A 200mOhm"/>
+      <property name="Link" value="https://www.digikey.lv/en/products/detail/bourns-inc/MH1608-601Y/2563317"/>
+      <property name="MANUFACTURER" value="Bourns Inc."/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b4033435-45c7-4b5a-aa2d-904504fc8a47</tstamps>
+    </comp>
+    <comp ref="FB4">
+      <value>600</value>
+      <footprint>Ferrite_SMD_AKL:Ferrite_0603_1608Metric</footprint>
+      <datasheet>https://www.bourns.com/docs/Product-Datasheets/mh.pdf</datasheet>
+      <fields>
+        <field name="Description">600Ohms@100MHz Power/Signal Line Ferrite Bead 0603 1A 200mOhm</field>
+        <field name="Link">https://www.digikey.lv/en/products/detail/bourns-inc/MH1608-601Y/2563317</field>
+        <field name="MANUFACTURER">Bourns Inc.</field>
+        <field name="MPN">MH1608-601Y</field>
+      </fields>
+      <libsource lib="device_KC5" part="Ferrite_Bead_Small" description="Ferrite bead, small symbol"/>
+      <property name="Description" value="600Ohms@100MHz Power/Signal Line Ferrite Bead 0603 1A 200mOhm"/>
+      <property name="Link" value="https://www.digikey.lv/en/products/detail/bourns-inc/MH1608-601Y/2563317"/>
+      <property name="MANUFACTURER" value="Bourns Inc."/>
+      <property name="MPN" value="MH1608-601Y"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fbb98d6f-b54d-4f46-84fa-e0c10cf07e72</tstamps>
+    </comp>
+    <comp ref="FB5">
+      <value>600</value>
+      <footprint>Ferrite_SMD_AKL:Ferrite_0603_1608Metric</footprint>
+      <datasheet>https://www.bourns.com/docs/Product-Datasheets/mh.pdf</datasheet>
+      <fields>
+        <field name="Description">600Ohms@100MHz Power/Signal Line Ferrite Bead 0603 1A 200mOhm</field>
+        <field name="Link">https://www.digikey.lv/en/products/detail/bourns-inc/MH1608-601Y/2563317</field>
+        <field name="MANUFACTURER">Bourns Inc.</field>
+        <field name="MPN">MH1608-601Y</field>
+      </fields>
+      <libsource lib="device_KC5" part="Ferrite_Bead_Small" description="Ferrite bead, small symbol"/>
+      <property name="Description" value="600Ohms@100MHz Power/Signal Line Ferrite Bead 0603 1A 200mOhm"/>
+      <property name="Link" value="https://www.digikey.lv/en/products/detail/bourns-inc/MH1608-601Y/2563317"/>
+      <property name="MANUFACTURER" value="Bourns Inc."/>
+      <property name="MPN" value="MH1608-601Y"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fda50a20-3488-4aa6-8705-bf989693e0be</tstamps>
+    </comp>
+    <comp ref="FB6">
+      <value>600</value>
+      <footprint>Ferrite_SMD_AKL:Ferrite_0603_1608Metric</footprint>
+      <datasheet>https://www.bourns.com/docs/Product-Datasheets/mh.pdf</datasheet>
+      <fields>
+        <field name="Description">600Ohms@100MHz Power/Signal Line Ferrite Bead 0603 1A 200mOhm</field>
+        <field name="Link">https://www.digikey.lv/en/products/detail/bourns-inc/MH1608-601Y/2563317</field>
+        <field name="MANUFACTURER">Bourns Inc.</field>
+        <field name="MPN">MH1608-601Y</field>
+      </fields>
+      <libsource lib="device_KC5" part="Ferrite_Bead_Small" description="Ferrite bead, small symbol"/>
+      <property name="Description" value="600Ohms@100MHz Power/Signal Line Ferrite Bead 0603 1A 200mOhm"/>
+      <property name="Link" value="https://www.digikey.lv/en/products/detail/bourns-inc/MH1608-601Y/2563317"/>
+      <property name="MANUFACTURER" value="Bourns Inc."/>
+      <property name="MPN" value="MH1608-601Y"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0ff94bc3-e319-4cc0-894e-a48bd517e175</tstamps>
+    </comp>
+    <comp ref="FB7">
+      <value>600</value>
+      <footprint>Ferrite_SMD_AKL:Ferrite_0603_1608Metric</footprint>
+      <datasheet>https://www.bourns.com/docs/Product-Datasheets/mh.pdf</datasheet>
+      <fields>
+        <field name="Description">600Ohms@100MHz Power/Signal Line Ferrite Bead 0603 1A 200mOhm</field>
+        <field name="Link">https://www.digikey.lv/en/products/detail/bourns-inc/MH1608-601Y/2563317</field>
+        <field name="MANUFACTURER">Bourns Inc.</field>
+        <field name="MPN">MH1608-601Y</field>
+      </fields>
+      <libsource lib="device_KC5" part="Ferrite_Bead_Small" description="Ferrite bead, small symbol"/>
+      <property name="Description" value="600Ohms@100MHz Power/Signal Line Ferrite Bead 0603 1A 200mOhm"/>
+      <property name="Link" value="https://www.digikey.lv/en/products/detail/bourns-inc/MH1608-601Y/2563317"/>
+      <property name="MANUFACTURER" value="Bourns Inc."/>
+      <property name="MPN" value="MH1608-601Y"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3b16f0db-6f20-4fd1-ba47-987dbdec5ad4</tstamps>
+    </comp>
+    <comp ref="FB8">
+      <value>600</value>
+      <footprint>Ferrite_SMD_AKL:Ferrite_0603_1608Metric</footprint>
+      <datasheet>https://www.bourns.com/docs/Product-Datasheets/mh.pdf</datasheet>
+      <fields>
+        <field name="Description">600Ohms@100MHz Power/Signal Line Ferrite Bead 0603 1A 200mOhm</field>
+        <field name="Link">https://www.digikey.lv/en/products/detail/bourns-inc/MH1608-601Y/2563317</field>
+        <field name="MANUFACTURER">Bourns Inc.</field>
+        <field name="MPN">MH1608-601Y</field>
+      </fields>
+      <libsource lib="device_KC5" part="Ferrite_Bead_Small" description="Ferrite bead, small symbol"/>
+      <property name="Description" value="600Ohms@100MHz Power/Signal Line Ferrite Bead 0603 1A 200mOhm"/>
+      <property name="Link" value="https://www.digikey.lv/en/products/detail/bourns-inc/MH1608-601Y/2563317"/>
+      <property name="MANUFACTURER" value="Bourns Inc."/>
+      <property name="MPN" value="MH1608-601Y"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>95ed1666-ff2e-4da9-8507-31fe913b8ec9</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole_2.7mm_M2.5_DIN965_Pad</value>
+      <footprint>MountingHole:MountingHole_2.5mm_Pad_Via</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8d00ed7f-725d-4e21-8afd-40c9395ce47e</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole_2.7mm_M2.5_DIN965_Pad</value>
+      <footprint>MountingHole:MountingHole_2.5mm_Pad_Via</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a9b3a4d2-08c5-4432-9b99-162b4ff09846</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole_2.7mm_M2.5_DIN965_Pad</value>
+      <footprint>MountingHole:MountingHole_2.5mm_Pad_Via</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>15ffca35-056e-4b1b-bae1-691b349a69fa</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole_2.7mm_M2.5_DIN965_Pad</value>
+      <footprint>MountingHole:MountingHole_2.5mm_Pad_Via</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3cd5e31b-9534-4c68-bbe2-82e959af509b</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>USB_B_Micro</value>
+      <footprint>gg_Packages:USB_Micro-B_Wuerth_629105150521_CircularHoles</footprint>
+      <datasheet>https://www.we-online.com/katalog/datasheet/629105150521.pdf</datasheet>
+      <fields>
+        <field name="Description">USB - micro B USB 2.0 Receptacle Connector 5 Position Surface Mount, Right Angle; Through Hole</field>
+        <field name="Link">https://www.digikey.lv/en/products/detail/w%C3%BCrth-elektronik/629105150521/5047751?s=N4IgTCBcDaIOoFcCmAnALgCwAQDYwE4BGABgFZDSyxCQBdAXyA</field>
+        <field name="MANUFACTURER">Würth Elektronik</field>
+        <field name="MPN">629105150521</field>
+      </fields>
+      <libsource lib="Connector" part="USB_B_Micro" description="USB Micro Type B connector"/>
+      <property name="Link" value="https://www.digikey.lv/en/products/detail/w%C3%BCrth-elektronik/629105150521/5047751?s=N4IgTCBcDaIOoFcCmAnALgCwAQDYwE4BGABgFZDSyxCQBdAXyA"/>
+      <property name="MPN" value="629105150521"/>
+      <property name="Description" value="USB - micro B USB 2.0 Receptacle Connector 5 Position Surface Mount, Right Angle; Through Hole"/>
+      <property name="MANUFACTURER" value="Würth Elektronik"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>076b9900-7323-4472-8d02-0e6ec7408c6e</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>CORTEX_DEBUG_PTH</value>
+      <footprint>SparkFun-Connectors:2X5-PTH-1.27MM</footprint>
+      <datasheet>https://s3.amazonaws.com/catalogspreads-pdf/PAGE94-95%20.050%20MALE%20HDR%20ST%20RA%20SMT.pdf</datasheet>
+      <fields>
+        <field name="Description">Connector Header Through Hole 10 position 0.050" (1.27mm)</field>
+        <field name="Field4">XXX-00000</field>
+        <field name="Link">https://www.digikey.lv/en/products/detail/sullins-connector-solutions/GRPB052VWVN-RC/1786455</field>
+        <field name="MANUFACTURER">Sullins Connector Solutions</field>
+        <field name="MPN">GRPB052VWVN-RC</field>
+      </fields>
+      <libsource lib="SparkFun-Connectors" part="CORTEX_DEBUG_PTH" description="Cortex Debug Connector - 10 pin Supports JTAG debug, Serial Wire debug, and Serial Wire Viewer.PTH and SMD connector options available.  &lt;ul&gt;&lt;a href= http://infocenter.arm.com/help/topic/com.arm.doc.faqs/attached/13634/cortex_debug_connectors.pdf &gt;General Connector Information&lt;/a&gt;&lt;b&gt; Products:&lt;/b&gt;&lt;ul&gt;&lt;li&gt;&lt;a href= http://www.digikey.com/product-detail/en/cnc-tech/3220-10-0100-00/1175-1627-ND/3883661 &gt;PTH Connector&lt;/a&gt; -via Digi-Key&lt;/li&gt;&lt;li&gt;&lt;a href= https://www.sparkfun.com/products/13229 &gt;SparkFun PSoc&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href= https://www.sparkfun.com/products/13810 &gt;SparkFun T&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;"/>
+      <property name="Field4" value="XXX-00000"/>
+      <property name="Description" value="Connector Header Through Hole 10 position 0.050&quot; (1.27mm)"/>
+      <property name="Link" value="https://www.digikey.lv/en/products/detail/sullins-connector-solutions/GRPB052VWVN-RC/1786455"/>
+      <property name="MANUFACTURER" value="Sullins Connector Solutions"/>
+      <property name="MPN" value="GRPB052VWVN-RC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1de3a3ee-4a1f-4ae3-8134-d708fd4f8021</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Battery</value>
+      <footprint>Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical</footprint>
+      <datasheet>https://www.jst-mfg.com/product/pdf/eng/eXH.pdf</datasheet>
+      <fields>
+        <field name="Description">Connector Header Through Hole 2 position 0.098" (2.50mm)</field>
+        <field name="Link">https://www.digikey.lv/en/products/detail/jst-sales-america-inc/B2B-XH-A-GU/2043065?0=%2Fheaders-male-pins&amp;s=N4IgjCBcoGwJxVAYygMwIYBsDOBTANCAPZQDaIALGGABxwDsIAuoQA4AuUIAyuwE4BLAHYBzEAF9CNGohApIGHAWJlwAJjABmNTGZtOkHv2FjJIOAAZZ8xXkIlI5TXBgwArHpAcuvQaImEYPSW1mhYdiqO5hRqVixeBkZ%2BpoHBENByYUr2qppuFsG68d6GviYB4HB0oQrhyg7kcWax1DW29aoUFq6uniVJ5WYAtGo1-ACuHVEeTMPpyFkRDZRuM%2BJmHhmsUGBs25D560A</field>
+        <field name="MANUFACTURER">JST Sales America Inc.</field>
+        <field name="MPN">B2B-XH-A-GU</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Description" value="Connector Header Through Hole 2 position 0.098&quot; (2.50mm)"/>
+      <property name="Link" value="https://www.digikey.lv/en/products/detail/jst-sales-america-inc/B2B-XH-A-GU/2043065?0=%2Fheaders-male-pins&amp;s=N4IgjCBcoGwJxVAYygMwIYBsDOBTANCAPZQDaIALGGABxwDsIAuoQA4AuUIAyuwE4BLAHYBzEAF9CNGohApIGHAWJlwAJjABmNTGZtOkHv2FjJIOAAZZ8xXkIlI5TXBgwArHpAcuvQaImEYPSW1mhYdiqO5hRqVixeBkZ%2BpoHBENByYUr2qppuFsG68d6GviYB4HB0oQrhyg7kcWax1DW29aoUFq6uniVJ5WYAtGo1-ACuHVEeTMPpyFkRDZRuM%2BJmHhmsUGBs25D560A"/>
+      <property name="MANUFACTURER" value="JST Sales America Inc."/>
+      <property name="MPN" value="B2B-XH-A-GU"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3f517df8-d659-4db9-b7ec-454b13c11d8a</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>UART2</value>
+      <footprint>Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical</footprint>
+      <datasheet>https://tools.molex.com/pdm_docs/sd/530470460_sd.pdf</datasheet>
+      <fields>
+        <field name="Description">Connector Header Through Hole 4 position 0.049" (1.25mm)</field>
+        <field name="Link">https://www.digikey.lv/en/products/detail/molex/0530470460/15622924</field>
+        <field name="MANUFACTURER">Molex</field>
+        <field name="MPN">0530470460</field>
+        <field name="MPN2">1-0401FBV0T</field>
+        <field name="Manufacturer">TAD</field>
+        <field name="Manufacturer2">JST</field>
+      </fields>
+      <libsource lib="Connector_Generic_MountingPin" part="Conn_01x04_MountingPin" description="Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer" value="TAD"/>
+      <property name="MPN" value="0530470460"/>
+      <property name="Description" value="Connector Header Through Hole 4 position 0.049&quot; (1.25mm)"/>
+      <property name="Link" value="https://www.digikey.lv/en/products/detail/molex/0530470460/15622924"/>
+      <property name="MANUFACTURER" value="Molex"/>
+      <property name="MPN2" value="1-0401FBV0T"/>
+      <property name="Manufacturer2" value="JST"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>021ab00b-4248-406e-b0eb-b1249041ccca</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>UART4</value>
+      <footprint>Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical</footprint>
+      <datasheet>https://tools.molex.com/pdm_docs/sd/530470460_sd.pdf</datasheet>
+      <fields>
+        <field name="Description">Connector Header Through Hole 4 position 0.049" (1.25mm)</field>
+        <field name="Link">https://www.digikey.lv/en/products/detail/molex/0530470460/15622924</field>
+        <field name="MANUFACTURER">Molex</field>
+        <field name="MPN">0530470460</field>
+        <field name="MPN2">1-0401FBV0T</field>
+        <field name="Manufacturer">TAD</field>
+        <field name="Manufacturer2">JST</field>
+      </fields>
+      <libsource lib="Connector_Generic_MountingPin" part="Conn_01x04_MountingPin" description="Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer" value="TAD"/>
+      <property name="MPN" value="0530470460"/>
+      <property name="Description" value="Connector Header Through Hole 4 position 0.049&quot; (1.25mm)"/>
+      <property name="Link" value="https://www.digikey.lv/en/products/detail/molex/0530470460/15622924"/>
+      <property name="MANUFACTURER" value="Molex"/>
+      <property name="MPN2" value="1-0401FBV0T"/>
+      <property name="Manufacturer2" value="JST"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0c298af7-7f0e-49a0-921d-2a4595f76848</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>UART5</value>
+      <footprint>Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical</footprint>
+      <datasheet>https://tools.molex.com/pdm_docs/sd/530470460_sd.pdf</datasheet>
+      <fields>
+        <field name="Description">Connector Header Through Hole 4 position 0.049" (1.25mm)</field>
+        <field name="Link">https://www.digikey.lv/en/products/detail/molex/0530470460/15622924</field>
+        <field name="MANUFACTURER">Molex</field>
+        <field name="MPN">0530470460</field>
+        <field name="MPN2">1-0401FBV0T</field>
+        <field name="Manufacturer">TAD</field>
+        <field name="Manufacturer2">JST</field>
+      </fields>
+      <libsource lib="Connector_Generic_MountingPin" part="Conn_01x04_MountingPin" description="Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer" value="TAD"/>
+      <property name="MPN" value="0530470460"/>
+      <property name="Description" value="Connector Header Through Hole 4 position 0.049&quot; (1.25mm)"/>
+      <property name="Link" value="https://www.digikey.lv/en/products/detail/molex/0530470460/15622924"/>
+      <property name="MANUFACTURER" value="Molex"/>
+      <property name="MPN2" value="1-0401FBV0T"/>
+      <property name="Manufacturer2" value="JST"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a80b0f95-914d-47ff-9f1a-6ddfdd7e7c61</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>I2CA</value>
+      <footprint>Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical</footprint>
+      <datasheet>https://tools.molex.com/pdm_docs/sd/530470460_sd.pdf</datasheet>
+      <fields>
+        <field name="Description">Connector Header Through Hole 4 position 0.049" (1.25mm)</field>
+        <field name="Link">https://www.digikey.lv/en/products/detail/molex/0530470460/15622924</field>
+        <field name="MANUFACTURER">Molex</field>
+        <field name="MPN">0530470460</field>
+        <field name="MPN2">1-0401FBV0T</field>
+        <field name="Manufacturer">TAD</field>
+        <field name="Manufacturer2">JST</field>
+      </fields>
+      <libsource lib="Connector_Generic_MountingPin" part="Conn_01x04_MountingPin" description="Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer" value="TAD"/>
+      <property name="MPN" value="0530470460"/>
+      <property name="Description" value="Connector Header Through Hole 4 position 0.049&quot; (1.25mm)"/>
+      <property name="Link" value="https://www.digikey.lv/en/products/detail/molex/0530470460/15622924"/>
+      <property name="MANUFACTURER" value="Molex"/>
+      <property name="MPN2" value="1-0401FBV0T"/>
+      <property name="Manufacturer2" value="JST"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>207c10b9-0661-4bcb-987c-595d0185287c</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>I2CB</value>
+      <footprint>Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical</footprint>
+      <datasheet>https://tools.molex.com/pdm_docs/sd/530470460_sd.pdf</datasheet>
+      <fields>
+        <field name="Description">Connector Header Through Hole 4 position 0.049" (1.25mm)</field>
+        <field name="Link">https://www.digikey.lv/en/products/detail/molex/0530470460/15622924</field>
+        <field name="MANUFACTURER">Molex</field>
+        <field name="MPN">0530470460</field>
+        <field name="MPN2">1-0401FBV0T</field>
+        <field name="Manufacturer">TAD</field>
+        <field name="Manufacturer2">JST</field>
+      </fields>
+      <libsource lib="Connector_Generic_MountingPin" part="Conn_01x04_MountingPin" description="Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer" value="TAD"/>
+      <property name="MPN" value="0530470460"/>
+      <property name="Description" value="Connector Header Through Hole 4 position 0.049&quot; (1.25mm)"/>
+      <property name="Link" value="https://www.digikey.lv/en/products/detail/molex/0530470460/15622924"/>
+      <property name="MANUFACTURER" value="Molex"/>
+      <property name="MPN2" value="1-0401FBV0T"/>
+      <property name="Manufacturer2" value="JST"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2bee0c87-081a-4f56-a83e-e98db1659df8</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>I2CC</value>
+      <footprint>Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical</footprint>
+      <datasheet>https://tools.molex.com/pdm_docs/sd/530470460_sd.pdf</datasheet>
+      <fields>
+        <field name="Description">Connector Header Through Hole 4 position 0.049" (1.25mm)</field>
+        <field name="Link">https://www.digikey.lv/en/products/detail/molex/0530470460/15622924</field>
+        <field name="MANUFACTURER">Molex</field>
+        <field name="MPN">0530470460</field>
+        <field name="MPN2">1-0401FBV0T</field>
+        <field name="Manufacturer">TAD</field>
+        <field name="Manufacturer2">JST</field>
+      </fields>
+      <libsource lib="Connector_Generic_MountingPin" part="Conn_01x04_MountingPin" description="Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer" value="TAD"/>
+      <property name="MPN" value="0530470460"/>
+      <property name="Description" value="Connector Header Through Hole 4 position 0.049&quot; (1.25mm)"/>
+      <property name="Link" value="https://www.digikey.lv/en/products/detail/molex/0530470460/15622924"/>
+      <property name="MANUFACTURER" value="Molex"/>
+      <property name="MPN2" value="1-0401FBV0T"/>
+      <property name="Manufacturer2" value="JST"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0d0c8342-a574-4032-af95-b146c559e587</tstamps>
+    </comp>
+    <comp ref="M1">
+      <value>iM284A</value>
+      <footprint>gg_Packages:iM284A</footprint>
+      <fields>
+        <field name="MANUFACTURER">IMST</field>
+      </fields>
+      <libsource lib="gg_RF_IC" part="iM284A" description=""/>
+      <property name="MANUFACTURER" value="IMST"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>acd77edc-1c3c-4b47-90cc-fc655b4440e6</tstamps>
+    </comp>
+    <comp ref="M2">
+      <value>STM32L082KZT6</value>
+      <footprint>Modules:STM32L082KZT6_pink_pill</footprint>
+      <fields>
+        <field name="MPN">ICM-632-1-GT-HT</field>
+      </fields>
+      <libsource lib="gg_Modules" part="STM32L082KZT6" description=""/>
+      <property name="MPN" value="ICM-632-1-GT-HT"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1d431104-4b18-43db-9b67-c7e41f86b81b</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>1.0k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Description" value=""/>
+      <property name="Link" value=""/>
+      <property name="MANUFACTURER" value=""/>
+      <property name="MPN" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>25036202-5d6e-4ef0-bda2-edfa170f45e2</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>33k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Description" value=""/>
+      <property name="Link" value=""/>
+      <property name="MANUFACTURER" value=""/>
+      <property name="MPN" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>954878ec-e2a8-4309-a359-652dff1eccc4</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>1.0k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Description" value=""/>
+      <property name="Link" value=""/>
+      <property name="MANUFACTURER" value=""/>
+      <property name="MPN" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5b5567da-252c-4fdb-86ca-eccc2be6cbb5</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>33k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Description" value=""/>
+      <property name="Link" value=""/>
+      <property name="MANUFACTURER" value=""/>
+      <property name="MPN" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>787f851b-ddd3-48d9-8b8f-8e1bafec7654</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Description">2.2 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 Thick Film</field>
+        <field name="Link">https://www.digikey.lv/en/products/detail/walsin-technology-corporation/WR06X222-JTL/13241950</field>
+        <field name="MANUFACTURER">Walsin Technology Corporation</field>
+        <field name="MPN">WR06X222 JTL</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Description" value="2.2 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 Thick Film"/>
+      <property name="Link" value="https://www.digikey.lv/en/products/detail/walsin-technology-corporation/WR06X222-JTL/13241950"/>
+      <property name="MANUFACTURER" value="Walsin Technology Corporation"/>
+      <property name="MPN" value="WR06X222 JTL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aa4ab993-c4d8-4744-ba72-06ae6c2b8268</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>33k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Description" value=""/>
+      <property name="Link" value=""/>
+      <property name="MANUFACTURER" value=""/>
+      <property name="MPN" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3238f609-c96a-45b2-8b2a-378113202a3b</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>33</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Description">10 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 Thick Film</field>
+        <field name="Link">https://www.digikey.lv/en/products/detail/delta-electronics-cyntec/PFR05S-100-FNH/9761528</field>
+        <field name="MANUFACTURER">Delta Electronics/Cyntec</field>
+        <field name="MPN">PFR05S-100-FNH</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Description" value="10 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 Thick Film"/>
+      <property name="Link" value="https://www.digikey.lv/en/products/detail/delta-electronics-cyntec/PFR05S-100-FNH/9761528"/>
+      <property name="MANUFACTURER" value="Delta Electronics/Cyntec"/>
+      <property name="MPN" value="PFR05S-100-FNH"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2556d7a7-454b-4000-ad58-e49d416aded0</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>33</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Description" value=""/>
+      <property name="Link" value=""/>
+      <property name="MANUFACTURER" value=""/>
+      <property name="MPN" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e3ef7bc6-953c-42f2-bc70-041520319633</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Description">2.2 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 Thick Film</field>
+        <field name="Link">https://www.digikey.lv/en/products/detail/walsin-technology-corporation/WR06X222-JTL/13241950</field>
+        <field name="MANUFACTURER">Walsin Technology Corporation</field>
+        <field name="MPN">WR06X222 JTL</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Description" value="2.2 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 Thick Film"/>
+      <property name="Link" value="https://www.digikey.lv/en/products/detail/walsin-technology-corporation/WR06X222-JTL/13241950"/>
+      <property name="MANUFACTURER" value="Walsin Technology Corporation"/>
+      <property name="MPN" value="WR06X222 JTL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8917f477-3337-46dc-b55c-8a6a94249aa5</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Description">220 Ohms ±5% 0.1W, 1/10W Chip Resistor 0603 Thick Film</field>
+        <field name="Link">https://www.digikey.lv/en/products/detail/walsin-technology-corporation/WR06X221-JTL/13239083</field>
+        <field name="MANUFACTURER">Walsin Technology Corporation</field>
+        <field name="MPN">WR06X221 JTL</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Description" value="220 Ohms ±5% 0.1W, 1/10W Chip Resistor 0603 Thick Film"/>
+      <property name="Link" value="https://www.digikey.lv/en/products/detail/walsin-technology-corporation/WR06X221-JTL/13239083"/>
+      <property name="MANUFACTURER" value="Walsin Technology Corporation"/>
+      <property name="MPN" value="WR06X221 JTL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>96cacddd-cd52-4533-bfa7-0310426cd925</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Description">220 Ohms ±5% 0.1W, 1/10W Chip Resistor 0603 Thick Film</field>
+        <field name="Link">https://www.digikey.lv/en/products/detail/walsin-technology-corporation/WR06X221-JTL/13239083</field>
+        <field name="MANUFACTURER">Walsin Technology Corporation</field>
+        <field name="MPN">WR06X221 JTL</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Description" value="220 Ohms ±5% 0.1W, 1/10W Chip Resistor 0603 Thick Film"/>
+      <property name="Link" value="https://www.digikey.lv/en/products/detail/walsin-technology-corporation/WR06X221-JTL/13239083"/>
+      <property name="MANUFACTURER" value="Walsin Technology Corporation"/>
+      <property name="MPN" value="WR06X221 JTL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ee1a0db9-685f-4d51-89ee-3599ff083816</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Description">220 Ohms ±5% 0.1W, 1/10W Chip Resistor 0603 Thick Film</field>
+        <field name="Link">https://www.digikey.lv/en/products/detail/walsin-technology-corporation/WR06X221-JTL/13239083</field>
+        <field name="MANUFACTURER">Walsin Technology Corporation</field>
+        <field name="MPN">WR06X221 JTL</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Description" value="220 Ohms ±5% 0.1W, 1/10W Chip Resistor 0603 Thick Film"/>
+      <property name="Link" value="https://www.digikey.lv/en/products/detail/walsin-technology-corporation/WR06X221-JTL/13239083"/>
+      <property name="MANUFACTURER" value="Walsin Technology Corporation"/>
+      <property name="MPN" value="WR06X221 JTL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4776c357-0ae4-405b-bdbc-9c9694e7a9cb</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Description">220 Ohms ±5% 0.1W, 1/10W Chip Resistor 0603 Thick Film</field>
+        <field name="Link">https://www.digikey.lv/en/products/detail/walsin-technology-corporation/WR06X221-JTL/13239083</field>
+        <field name="MANUFACTURER">Walsin Technology Corporation</field>
+        <field name="MPN">WR06X221 JTL</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Description" value="220 Ohms ±5% 0.1W, 1/10W Chip Resistor 0603 Thick Film"/>
+      <property name="Link" value="https://www.digikey.lv/en/products/detail/walsin-technology-corporation/WR06X221-JTL/13239083"/>
+      <property name="MANUFACTURER" value="Walsin Technology Corporation"/>
+      <property name="MPN" value="WR06X221 JTL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ffd7a87f-d4c9-438c-be66-cf6ca8495acd</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>1.0k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Description" value=""/>
+      <property name="Link" value=""/>
+      <property name="MANUFACTURER" value=""/>
+      <property name="MPN" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bdbc3771-1a13-4d5f-9cfe-69adb5cd4ab9</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>47</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Description" value=""/>
+      <property name="Link" value=""/>
+      <property name="MANUFACTURER" value=""/>
+      <property name="MPN" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9a27c603-fa1a-4bc9-b425-6008aefe51c4</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>47</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Description" value=""/>
+      <property name="Link" value=""/>
+      <property name="MANUFACTURER" value=""/>
+      <property name="MPN" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a8c9534e-36ba-4777-abda-76589d5f28eb</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Description">220 Ohms ±5% 0.1W, 1/10W Chip Resistor 0603 Thick Film</field>
+        <field name="Link">https://www.digikey.lv/en/products/detail/walsin-technology-corporation/WR06X221-JTL/13239083</field>
+        <field name="MANUFACTURER">Walsin Technology Corporation</field>
+        <field name="MPN">WR06X221 JTL</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Description" value="220 Ohms ±5% 0.1W, 1/10W Chip Resistor 0603 Thick Film"/>
+      <property name="Link" value="https://www.digikey.lv/en/products/detail/walsin-technology-corporation/WR06X221-JTL/13239083"/>
+      <property name="MANUFACTURER" value="Walsin Technology Corporation"/>
+      <property name="MPN" value="WR06X221 JTL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>22f979c8-5955-4e20-a4bb-1f2298a1f074</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Description">220 Ohms ±5% 0.1W, 1/10W Chip Resistor 0603 Thick Film</field>
+        <field name="Link">https://www.digikey.lv/en/products/detail/walsin-technology-corporation/WR06X221-JTL/13239083</field>
+        <field name="MANUFACTURER">Walsin Technology Corporation</field>
+        <field name="MPN">WR06X221 JTL</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Description" value="220 Ohms ±5% 0.1W, 1/10W Chip Resistor 0603 Thick Film"/>
+      <property name="Link" value="https://www.digikey.lv/en/products/detail/walsin-technology-corporation/WR06X221-JTL/13239083"/>
+      <property name="MANUFACTURER" value="Walsin Technology Corporation"/>
+      <property name="MPN" value="WR06X221 JTL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>141dc1a0-023d-4323-8d16-721f5965ccd4</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Description">220 Ohms ±5% 0.1W, 1/10W Chip Resistor 0603 Thick Film</field>
+        <field name="Link">https://www.digikey.lv/en/products/detail/walsin-technology-corporation/WR06X221-JTL/13239083</field>
+        <field name="MANUFACTURER">Walsin Technology Corporation</field>
+        <field name="MPN">WR06X221 JTL</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Description" value="220 Ohms ±5% 0.1W, 1/10W Chip Resistor 0603 Thick Film"/>
+      <property name="Link" value="https://www.digikey.lv/en/products/detail/walsin-technology-corporation/WR06X221-JTL/13239083"/>
+      <property name="MANUFACTURER" value="Walsin Technology Corporation"/>
+      <property name="MPN" value="WR06X221 JTL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>80c0e0dd-3609-4590-9514-0ff93ded42b7</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Description">220 Ohms ±5% 0.1W, 1/10W Chip Resistor 0603 Thick Film</field>
+        <field name="Link">https://www.digikey.lv/en/products/detail/walsin-technology-corporation/WR06X221-JTL/13239083</field>
+        <field name="MANUFACTURER">Walsin Technology Corporation</field>
+        <field name="MPN">WR06X221 JTL</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Description" value="220 Ohms ±5% 0.1W, 1/10W Chip Resistor 0603 Thick Film"/>
+      <property name="Link" value="https://www.digikey.lv/en/products/detail/walsin-technology-corporation/WR06X221-JTL/13239083"/>
+      <property name="MANUFACTURER" value="Walsin Technology Corporation"/>
+      <property name="MPN" value="WR06X221 JTL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>32233f31-790c-4d2a-b27c-5264f69db806</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>TL3780AF240QG</value>
+      <footprint>SnapEDA:SW_TL3780AF240QG</footprint>
+      <datasheet>https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/221/TL3780.pdf</datasheet>
+      <fields>
+        <field name="Description">SWITCH TACTILE SPST-NO 0.02A 15V</field>
+        <field name="Link">https://www.digikey.lv/en/products/detail/e-switch/TL3780AF240QG/6003167?s=N4IgTCBcDaICoBkDMB2AHABgIIDEwBYMBFAcRAF0BfIA</field>
+        <field name="Link2">https://www.digikey.lv/en/products/detail/mitsumi-electric-company-ltd/R-667995/11591281?s=N4IgTCBcDaIEoFoBsSDsBOdBWEBdAvkA</field>
+        <field name="MANUFACTURER">E-Switch</field>
+        <field name="MPN">TL3780AF240QG</field>
+        <field name="MPN2">R-667995</field>
+        <field name="Text">RESET</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Value2" value=""/>
+      <property name="Text" value="RESET"/>
+      <property name="Description" value="SWITCH TACTILE SPST-NO 0.02A 15V"/>
+      <property name="Link" value="https://www.digikey.lv/en/products/detail/e-switch/TL3780AF240QG/6003167?s=N4IgTCBcDaICoBkDMB2AHABgIIDEwBYMBFAcRAF0BfIA"/>
+      <property name="Link2" value="https://www.digikey.lv/en/products/detail/mitsumi-electric-company-ltd/R-667995/11591281?s=N4IgTCBcDaIEoFoBsSDsBOdBWEBdAvkA"/>
+      <property name="MANUFACTURER" value="E-Switch"/>
+      <property name="MPN" value="TL3780AF240QG"/>
+      <property name="MPN2" value="R-667995"/>
+      <property name="Description2" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cb8e0fb4-b0c4-43de-95b2-07eccd7d82fa</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>TL3780AF240QG</value>
+      <footprint>SnapEDA:SW_TL3780AF240QG</footprint>
+      <datasheet>https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/221/TL3780.pdf</datasheet>
+      <fields>
+        <field name="Description">SWITCH TACTILE SPST-NO 0.02A 15V</field>
+        <field name="Link">https://www.digikey.lv/en/products/detail/e-switch/TL3780AF240QG/6003167?s=N4IgTCBcDaICoBkDMB2AHABgIIDEwBYMBFAcRAF0BfIA</field>
+        <field name="Link2">https://www.digikey.lv/en/products/detail/mitsumi-electric-company-ltd/R-667995/11591281?s=N4IgTCBcDaIEoFoBsSDsBOdBWEBdAvkA</field>
+        <field name="MANUFACTURER">E-Switch</field>
+        <field name="MPN">TL3780AF240QG</field>
+        <field name="MPN2">R-667995</field>
+        <field name="Text">BOOT</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Value2" value=""/>
+      <property name="Text" value="BOOT"/>
+      <property name="Description" value="SWITCH TACTILE SPST-NO 0.02A 15V"/>
+      <property name="Link" value="https://www.digikey.lv/en/products/detail/e-switch/TL3780AF240QG/6003167?s=N4IgTCBcDaICoBkDMB2AHABgIIDEwBYMBFAcRAF0BfIA"/>
+      <property name="Link2" value="https://www.digikey.lv/en/products/detail/mitsumi-electric-company-ltd/R-667995/11591281?s=N4IgTCBcDaIEoFoBsSDsBOdBWEBdAvkA"/>
+      <property name="MANUFACTURER" value="E-Switch"/>
+      <property name="MPN" value="TL3780AF240QG"/>
+      <property name="MPN2" value="R-667995"/>
+      <property name="Description2" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>482dff61-e643-44d9-b3c0-3288b799c27f</tstamps>
+    </comp>
+    <comp ref="SW3">
+      <value>TL3780AF240QG</value>
+      <footprint>SnapEDA:SW_TL3780AF240QG</footprint>
+      <datasheet>https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/221/TL3780.pdf</datasheet>
+      <fields>
+        <field name="Description">SWITCH TACTILE SPST-NO 0.02A 15V</field>
+        <field name="Link">https://www.digikey.lv/en/products/detail/e-switch/TL3780AF240QG/6003167?s=N4IgTCBcDaICoBkDMB2AHABgIIDEwBYMBFAcRAF0BfIA</field>
+        <field name="Link2">https://www.digikey.lv/en/products/detail/mitsumi-electric-company-ltd/R-667995/11591281?s=N4IgTCBcDaIEoFoBsSDsBOdBWEBdAvkA</field>
+        <field name="MANUFACTURER">E-Switch</field>
+        <field name="MPN">TL3780AF240QG</field>
+        <field name="MPN2">R-667995</field>
+        <field name="Text">USER</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Value2" value=""/>
+      <property name="Text" value="USER"/>
+      <property name="Description" value="SWITCH TACTILE SPST-NO 0.02A 15V"/>
+      <property name="Link" value="https://www.digikey.lv/en/products/detail/e-switch/TL3780AF240QG/6003167?s=N4IgTCBcDaICoBkDMB2AHABgIIDEwBYMBFAcRAF0BfIA"/>
+      <property name="Link2" value="https://www.digikey.lv/en/products/detail/mitsumi-electric-company-ltd/R-667995/11591281?s=N4IgTCBcDaIEoFoBsSDsBOdBWEBdAvkA"/>
+      <property name="MANUFACTURER" value="E-Switch"/>
+      <property name="MPN" value="TL3780AF240QG"/>
+      <property name="MPN2" value="R-667995"/>
+      <property name="Description2" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>708a0a33-7a1f-4e80-bf24-545494491293</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>TCR3UF33A</value>
+      <footprint>gg_Packages:SOT-25</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/TCR3UF33A_datasheet_en_20211028.pdf?did=68764&amp;prodName=TCR3UF33A</datasheet>
+      <fields>
+        <field name="Description">0.287V @ 300mA 680nA 70dB -40~+85 SMV, SC-74A. SOT-753, SOT-25</field>
+        <field name="Description2">0.31V@200MA 60nA 55dB -40~+125 SOT23-5</field>
+        <field name="Link">https://www.digikey.lv/en/products/detail/toshiba-semiconductor-and-storage/TCR3UF33A-LM-CT/13913294?s=N4IgTCBcDaICoGEBKBmAqgMRSggiAugL5A</field>
+        <field name="Link2">https://www.digikey.lv/en/products/detail/texas-instruments/TPS7A0233PDBVR/12165099</field>
+        <field name="MANUFACTURER">Toshiba Semiconductor and Storage</field>
+        <field name="MPN">TCR3UF33A</field>
+        <field name="MPN2">TPS7A0233PDBVR (jaamaina pads!)</field>
+      </fields>
+      <libsource lib="gg_Power" part="TCR3UF33A" description="Low quiescent bias current 0.34 μA (typ.), linear Voltage Regulator IC Positive Fixed 1 Output 20mV@300mA, High Ripple rejection 70 dB, SMV/SOT-25-5/SC-74A"/>
+      <property name="Description" value="0.287V @ 300mA 680nA 70dB -40~+85 SMV, SC-74A. SOT-753, SOT-25"/>
+      <property name="MPN" value="TCR3UF33A"/>
+      <property name="Link" value="https://www.digikey.lv/en/products/detail/toshiba-semiconductor-and-storage/TCR3UF33A-LM-CT/13913294?s=N4IgTCBcDaICoGEBKBmAqgMRSggiAugL5A"/>
+      <property name="MPN2" value="TPS7A0233PDBVR (jaamaina pads!)"/>
+      <property name="Description2" value="0.31V@200MA 60nA 55dB -40~+125 SOT23-5"/>
+      <property name="Link2" value="https://www.digikey.lv/en/products/detail/texas-instruments/TPS7A0233PDBVR/12165099"/>
+      <property name="MANUFACTURER" value="Toshiba Semiconductor and Storage"/>
+      <property name="Text" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d2ee6ce7-2724-4bcc-8205-6e4b9c6170b3</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>TCR3UF33A</value>
+      <footprint>gg_Packages:SOT-25</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/TCR3UF33A_datasheet_en_20211028.pdf?did=68764&amp;prodName=TCR3UF33A</datasheet>
+      <fields>
+        <field name="Description">0.287V @ 300mA 680nA 70dB -40~+85 SMV, SC-74A. SOT-753, SOT-25</field>
+        <field name="Description2">0.31V@200MA 60nA 55dB -40~+125 SOT23-5</field>
+        <field name="Link">https://www.digikey.lv/en/products/detail/toshiba-semiconductor-and-storage/TCR3UF33A-LM-CT/13913294?s=N4IgTCBcDaICoGEBKBmAqgMRSggiAugL5A</field>
+        <field name="Link2">https://www.digikey.lv/en/products/detail/texas-instruments/TPS7A0233PDBVR/12165099</field>
+        <field name="MANUFACTURER">Toshiba Semiconductor and Storage</field>
+        <field name="MPN">TCR3UF33A</field>
+        <field name="MPN2">TPS7A0233PDBVR (jaamaina pads!)</field>
+      </fields>
+      <libsource lib="gg_Power" part="TCR3UF33A" description="Low quiescent bias current 0.34 μA (typ.), linear Voltage Regulator IC Positive Fixed 1 Output 20mV@300mA, High Ripple rejection 70 dB, SMV/SOT-25-5/SC-74A"/>
+      <property name="Description" value="0.287V @ 300mA 680nA 70dB -40~+85 SMV, SC-74A. SOT-753, SOT-25"/>
+      <property name="MPN" value="TCR3UF33A"/>
+      <property name="Link" value="https://www.digikey.lv/en/products/detail/toshiba-semiconductor-and-storage/TCR3UF33A-LM-CT/13913294?s=N4IgTCBcDaICoGEBKBmAqgMRSggiAugL5A"/>
+      <property name="MPN2" value="TPS7A0233PDBVR (jaamaina pads!)"/>
+      <property name="Description2" value="0.31V@200MA 60nA 55dB -40~+125 SOT23-5"/>
+      <property name="Link2" value="https://www.digikey.lv/en/products/detail/texas-instruments/TPS7A0233PDBVR/12165099"/>
+      <property name="MANUFACTURER" value="Toshiba Semiconductor and Storage"/>
+      <property name="Text" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0302e1b3-86c7-4f7c-8589-bb1c89f790d7</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>TCR3UF33A</value>
+      <footprint>gg_Packages:SOT-25</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/TCR3UF33A_datasheet_en_20211028.pdf?did=68764&amp;prodName=TCR3UF33A</datasheet>
+      <fields>
+        <field name="Description">0.287V @ 300mA 680nA 70dB -40~+85 SMV, SC-74A. SOT-753, SOT-25</field>
+        <field name="Description2">0.31V@200MA 60nA 55dB -40~+125 SOT23-5</field>
+        <field name="Link">https://www.digikey.lv/en/products/detail/toshiba-semiconductor-and-storage/TCR3UF33A-LM-CT/13913294?s=N4IgTCBcDaICoGEBKBmAqgMRSggiAugL5A</field>
+        <field name="Link2">https://www.digikey.lv/en/products/detail/texas-instruments/TPS7A0233PDBVR/12165099</field>
+        <field name="MANUFACTURER">Toshiba Semiconductor and Storage</field>
+        <field name="MPN">TCR3UF33A</field>
+        <field name="MPN2">TPS7A0233PDBVR (jaamaina pads!)</field>
+      </fields>
+      <libsource lib="gg_Power" part="TCR3UF33A" description="Low quiescent bias current 0.34 μA (typ.), linear Voltage Regulator IC Positive Fixed 1 Output 20mV@300mA, High Ripple rejection 70 dB, SMV/SOT-25-5/SC-74A"/>
+      <property name="Description" value="0.287V @ 300mA 680nA 70dB -40~+85 SMV, SC-74A. SOT-753, SOT-25"/>
+      <property name="MPN" value="TCR3UF33A"/>
+      <property name="Link" value="https://www.digikey.lv/en/products/detail/toshiba-semiconductor-and-storage/TCR3UF33A-LM-CT/13913294?s=N4IgTCBcDaICoGEBKBmAqgMRSggiAugL5A"/>
+      <property name="MPN2" value="TPS7A0233PDBVR (jaamaina pads!)"/>
+      <property name="Description2" value="0.31V@200MA 60nA 55dB -40~+125 SOT23-5"/>
+      <property name="Link2" value="https://www.digikey.lv/en/products/detail/texas-instruments/TPS7A0233PDBVR/12165099"/>
+      <property name="MANUFACTURER" value="Toshiba Semiconductor and Storage"/>
+      <property name="Text" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>20ed0c34-8af3-4eab-9e5d-c5c2a47d9169</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>TCR3UF33A</value>
+      <footprint>gg_Packages:SOT-25</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/TCR3UF33A_datasheet_en_20211028.pdf?did=68764&amp;prodName=TCR3UF33A</datasheet>
+      <fields>
+        <field name="Description">0.287V @ 300mA 680nA 70dB -40~+85 SMV, SC-74A. SOT-753, SOT-25</field>
+        <field name="Description2">0.31V@200MA 60nA 55dB -40~+125 SOT23-5</field>
+        <field name="Link">https://www.digikey.lv/en/products/detail/toshiba-semiconductor-and-storage/TCR3UF33A-LM-CT/13913294?s=N4IgTCBcDaICoGEBKBmAqgMRSggiAugL5A</field>
+        <field name="Link2">https://www.digikey.lv/en/products/detail/texas-instruments/TPS7A0233PDBVR/12165099</field>
+        <field name="MANUFACTURER">Toshiba Semiconductor and Storage</field>
+        <field name="MPN">TCR3UF33A</field>
+        <field name="MPN2">TPS7A0233PDBVR (jaamaina pads!)</field>
+      </fields>
+      <libsource lib="gg_Power" part="TCR3UF33A" description="Low quiescent bias current 0.34 μA (typ.), linear Voltage Regulator IC Positive Fixed 1 Output 20mV@300mA, High Ripple rejection 70 dB, SMV/SOT-25-5/SC-74A"/>
+      <property name="Description" value="0.287V @ 300mA 680nA 70dB -40~+85 SMV, SC-74A. SOT-753, SOT-25"/>
+      <property name="MPN" value="TCR3UF33A"/>
+      <property name="Link" value="https://www.digikey.lv/en/products/detail/toshiba-semiconductor-and-storage/TCR3UF33A-LM-CT/13913294?s=N4IgTCBcDaICoGEBKBmAqgMRSggiAugL5A"/>
+      <property name="MPN2" value="TPS7A0233PDBVR (jaamaina pads!)"/>
+      <property name="Description2" value="0.31V@200MA 60nA 55dB -40~+125 SOT23-5"/>
+      <property name="Link2" value="https://www.digikey.lv/en/products/detail/texas-instruments/TPS7A0233PDBVR/12165099"/>
+      <property name="MANUFACTURER" value="Toshiba Semiconductor and Storage"/>
+      <property name="Text" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8d3c985d-288a-43ad-928e-2591b25cfaf4</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>TCR3UF33A</value>
+      <footprint>gg_Packages:SOT-25</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/TCR3UF33A_datasheet_en_20211028.pdf?did=68764&amp;prodName=TCR3UF33A</datasheet>
+      <fields>
+        <field name="Description">0.287V @ 300mA 680nA 70dB -40~+85 SMV, SC-74A. SOT-753, SOT-25</field>
+        <field name="Description2">0.31V@200MA 60nA 55dB -40~+125 SOT23-5</field>
+        <field name="Link">https://www.digikey.lv/en/products/detail/toshiba-semiconductor-and-storage/TCR3UF33A-LM-CT/13913294?s=N4IgTCBcDaICoGEBKBmAqgMRSggiAugL5A</field>
+        <field name="Link2">https://www.digikey.lv/en/products/detail/texas-instruments/TPS7A0233PDBVR/12165099</field>
+        <field name="MANUFACTURER">Toshiba Semiconductor and Storage</field>
+        <field name="MPN">TCR3UF33A</field>
+        <field name="MPN2">TPS7A0233PDBVR (jaamaina pads!)</field>
+      </fields>
+      <libsource lib="gg_Power" part="TCR3UF33A" description="Low quiescent bias current 0.34 μA (typ.), linear Voltage Regulator IC Positive Fixed 1 Output 20mV@300mA, High Ripple rejection 70 dB, SMV/SOT-25-5/SC-74A"/>
+      <property name="Description" value="0.287V @ 300mA 680nA 70dB -40~+85 SMV, SC-74A. SOT-753, SOT-25"/>
+      <property name="MPN" value="TCR3UF33A"/>
+      <property name="Link" value="https://www.digikey.lv/en/products/detail/toshiba-semiconductor-and-storage/TCR3UF33A-LM-CT/13913294?s=N4IgTCBcDaICoGEBKBmAqgMRSggiAugL5A"/>
+      <property name="MPN2" value="TPS7A0233PDBVR (jaamaina pads!)"/>
+      <property name="Description2" value="0.31V@200MA 60nA 55dB -40~+125 SOT23-5"/>
+      <property name="Link2" value="https://www.digikey.lv/en/products/detail/texas-instruments/TPS7A0233PDBVR/12165099"/>
+      <property name="MANUFACTURER" value="Toshiba Semiconductor and Storage"/>
+      <property name="Text" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d5a7a27c-d33e-4714-adec-9e6e08344b4a</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>TCR3UF33A</value>
+      <footprint>gg_Packages:SOT-25</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/TCR3UF33A_datasheet_en_20211028.pdf?did=68764&amp;prodName=TCR3UF33A</datasheet>
+      <fields>
+        <field name="Description">0.287V @ 300mA 680nA 70dB -40~+85 SMV, SC-74A. SOT-753, SOT-25</field>
+        <field name="Description2">0.31V@200MA 60nA 55dB -40~+125 SOT23-5</field>
+        <field name="Link">https://www.digikey.lv/en/products/detail/toshiba-semiconductor-and-storage/TCR3UF33A-LM-CT/13913294?s=N4IgTCBcDaICoGEBKBmAqgMRSggiAugL5A</field>
+        <field name="Link2">https://www.digikey.lv/en/products/detail/texas-instruments/TPS7A0233PDBVR/12165099</field>
+        <field name="MANUFACTURER">Toshiba Semiconductor and Storage</field>
+        <field name="MPN">TCR3UF33A</field>
+        <field name="MPN2">TPS7A0233PDBVR (jaamaina pads!)</field>
+      </fields>
+      <libsource lib="gg_Power" part="TCR3UF33A" description="Low quiescent bias current 0.34 μA (typ.), linear Voltage Regulator IC Positive Fixed 1 Output 20mV@300mA, High Ripple rejection 70 dB, SMV/SOT-25-5/SC-74A"/>
+      <property name="Description" value="0.287V @ 300mA 680nA 70dB -40~+85 SMV, SC-74A. SOT-753, SOT-25"/>
+      <property name="MPN" value="TCR3UF33A"/>
+      <property name="Link" value="https://www.digikey.lv/en/products/detail/toshiba-semiconductor-and-storage/TCR3UF33A-LM-CT/13913294?s=N4IgTCBcDaICoGEBKBmAqgMRSggiAugL5A"/>
+      <property name="MPN2" value="TPS7A0233PDBVR (jaamaina pads!)"/>
+      <property name="Description2" value="0.31V@200MA 60nA 55dB -40~+125 SOT23-5"/>
+      <property name="Link2" value="https://www.digikey.lv/en/products/detail/texas-instruments/TPS7A0233PDBVR/12165099"/>
+      <property name="MANUFACTURER" value="Toshiba Semiconductor and Storage"/>
+      <property name="Text" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="AI4EDGE_STM32_v6-rounded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>72b11276-58d4-4d37-a0c7-4b593c5ebf79</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x02_Male">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_B_Micro">
+      <description>USB Micro Type B connector</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_B_Micro</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="bidirectional"/>
+        <pin num="3" name="D+" type="bidirectional"/>
+        <pin num="4" name="ID" type="passive"/>
+        <pin num="5" name="GND" type="power_out"/>
+        <pin num="6" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic_MountingPin" part="Conn_01x04_MountingPin">
+      <description>Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??-1MP*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_MountingPin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="MP" name="MountPin" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="BAT54CW">
+      <description>Dual schottky barrier diode, common cathode, SOT-323</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf</docs>
+      <footprints>
+        <fp>SOT?323*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">BAT54CW</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-323_SC-70</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="SparkFun-Connectors" part="CORTEX_DEBUG_PTH">
+      <description>Cortex Debug Connector - 10 pin Supports JTAG debug, Serial Wire debug, and Serial Wire Viewer.PTH and SMD connector options available.  &lt;ul&gt;&lt;a href= http://infocenter.arm.com/help/topic/com.arm.doc.faqs/attached/13634/cortex_debug_connectors.pdf &gt;General Connector Information&lt;/a&gt;&lt;b&gt; Products:&lt;/b&gt;&lt;ul&gt;&lt;li&gt;&lt;a href= http://www.digikey.com/product-detail/en/cnc-tech/3220-10-0100-00/1175-1627-ND/3883661 &gt;PTH Connector&lt;/a&gt; -via Digi-Key&lt;/li&gt;&lt;li&gt;&lt;a href= https://www.sparkfun.com/products/13229 &gt;SparkFun PSoc&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href= https://www.sparkfun.com/products/13810 &gt;SparkFun T&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+      <footprints>
+        <fp>*2X5-PTH-1.27MM*</fp>
+        <fp>*SAMTECH_FTSH-105-01*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CORTEX_DEBUG_PTH</field>
+        <field name="Footprint">2X5-PTH-1.27MM</field>
+        <field name="Field4">XXX-00000</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="bidirectional"/>
+        <pin num="2" name="SWDIO/TMS" type="bidirectional"/>
+        <pin num="3" name="GND" type="bidirectional"/>
+        <pin num="4" name="SWDCLK/TCK" type="bidirectional"/>
+        <pin num="5" name="GND" type="bidirectional"/>
+        <pin num="6" name="SWO/TDO" type="bidirectional"/>
+        <pin num="7" name="KEY" type="bidirectional"/>
+        <pin num="8" name="NC/TDI" type="bidirectional"/>
+        <pin num="9" name="GNDDTCT" type="bidirectional"/>
+        <pin num="10" name="~{RESET}" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device_KC5" part="Ferrite_Bead_Small">
+      <description>Ferrite bead, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+        <fp>*Ferrite*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">Ferrite_Bead_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device_KC5" part="LED_Small">
+      <description>Light emitting diode, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="gg_Modules" part="STM32L082KZT6">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">STM32L082KZT6</field>
+        <field name="Footprint">Modules:STM32L082KZT6_pink_pill</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D13/PA13" type="bidirectional"/>
+        <pin num="2" name="~{RESET}" type="bidirectional"/>
+        <pin num="3" name="A0/PA0/TX4" type="bidirectional"/>
+        <pin num="4" name="A1/PA1/RX4" type="bidirectional"/>
+        <pin num="5" name="A2/PA2/TX2" type="bidirectional"/>
+        <pin num="6" name="A3/PA3/RX2" type="bidirectional"/>
+        <pin num="7" name="A4/PA4" type="bidirectional"/>
+        <pin num="8" name="A5/PA5" type="bidirectional"/>
+        <pin num="9" name="A6/PA6" type="bidirectional"/>
+        <pin num="10" name="A7/PA7" type="bidirectional"/>
+        <pin num="11" name="A8/D16/PB0" type="bidirectional"/>
+        <pin num="12" name="A9/D17/PB1" type="bidirectional"/>
+        <pin num="13" name="+BATT" type="power_in"/>
+        <pin num="14" name="GND" type="power_out"/>
+        <pin num="15" name="+5V" type="power_in"/>
+        <pin num="16" name="+3V3" type="power_in"/>
+        <pin num="17" name="GND" type="power_out"/>
+        <pin num="18" name="D8/PA8" type="bidirectional"/>
+        <pin num="19" name="D9/PA9/TX1" type="bidirectional"/>
+        <pin num="20" name="D10/PA10/RX1" type="bidirectional"/>
+        <pin num="21" name="D11/PA11" type="bidirectional"/>
+        <pin num="22" name="D12/PA12" type="bidirectional"/>
+        <pin num="23" name="D14/PA14" type="bidirectional"/>
+        <pin num="24" name="D15/PA15" type="bidirectional"/>
+        <pin num="25" name="D18/PB3/TX5" type="bidirectional"/>
+        <pin num="26" name="D19/PB4/RX5" type="bidirectional"/>
+        <pin num="27" name="D20/PB5" type="bidirectional"/>
+        <pin num="28" name="D21/PB6/SCL1" type="bidirectional"/>
+        <pin num="29" name="D22/PB7/SDA1" type="bidirectional"/>
+        <pin num="30" name="BOOT0" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="gg_Power" part="TCR3UF33A">
+      <description>Low quiescent bias current 0.34 μA (typ.), linear Voltage Regulator IC Positive Fixed 1 Output 20mV@300mA, High Ripple rejection 70 dB, SMV/SOT-25-5/SC-74A</description>
+      <docs>microchip</docs>
+      <fields>
+        <field name="Reference">U1</field>
+        <field name="Value">TCR3UF33A</field>
+        <field name="Footprint">gg_Packages:SOT-25</field>
+        <field name="Datasheet">microchip</field>
+        <field name="Description">0.287V @ 300mA 680nA 70dB -40~+85 SMV, SC-74A. SOT-753, SOT-25</field>
+        <field name="MPN">TCR3UF33A</field>
+        <field name="Link">https://www.digikey.lv/en/products/detail/toshiba-semiconductor-and-storage/TCR3UF33A-LM-CT/13913294?s=N4IgTCBcDaICoGEBKBmAqgMRSggiAugL5A</field>
+        <field name="MPN2">TPS7A0233PDBVR (jaamaina pads!)</field>
+        <field name="Description2">0.31V@200MA 60nA 55dB -40~+125 SOT23-5</field>
+        <field name="Link2">https://www.digikey.lv/en/products/detail/texas-instruments/TPS7A0233PDBVR/12165099</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="input"/>
+        <pin num="2" name="GND" type="power_out"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="X" type="no_connect"/>
+        <pin num="5" name="VOUT" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="gg_RF_IC" part="iM284A">
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">iM284A</field>
+        <field name="Footprint">gg_Packages:iM284A</field>
+        <field name="MANUFACTURER">IMST</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_out"/>
+        <pin num="2" name="P2/JTCK/SWCLK/PA14" type="bidirectional"/>
+        <pin num="3" name="P3/JTMS/SWDIO/PA13" type="bidirectional"/>
+        <pin num="4" name="P4/JTDO/PB3" type="bidirectional"/>
+        <pin num="5" name="P5/JTDI/PA15" type="bidirectional"/>
+        <pin num="6" name="GND" type="power_out"/>
+        <pin num="7" name="P7/~{RESET}" type="bidirectional"/>
+        <pin num="8" name="P8/USB_N/PA11" type="bidirectional"/>
+        <pin num="9" name="P9/USB_P/PA12" type="bidirectional"/>
+        <pin num="10" name="P10/PB7" type="bidirectional"/>
+        <pin num="11" name="GND" type="power_out"/>
+        <pin num="12" name="P12/PB14" type="bidirectional"/>
+        <pin num="13" name="P13/PB15" type="bidirectional"/>
+        <pin num="14" name="P14/PB13" type="bidirectional"/>
+        <pin num="15" name="P15/PB12" type="bidirectional"/>
+        <pin num="16" name="GND" type="bidirectional"/>
+        <pin num="17" name="VDD" type="power_in"/>
+        <pin num="18" name="P18/RxD1/T4C1/PA10/PB6" type="bidirectional"/>
+        <pin num="19" name="P19/TxD1/PA9" type="bidirectional"/>
+        <pin num="20" name="P20/PA8" type="bidirectional"/>
+        <pin num="21" name="PB8/I2C1_SCL/P21" type="bidirectional"/>
+        <pin num="22" name="GND" type="power_out"/>
+        <pin num="23" name="PB9/I2C1_SDA/P23" type="bidirectional"/>
+        <pin num="24" name="PA2/P24" type="bidirectional"/>
+        <pin num="25" name="PA3/P25" type="bidirectional"/>
+        <pin num="26" name="PH3/BOOT/P26" type="bidirectional"/>
+        <pin num="27" name="GND" type="power_out"/>
+        <pin num="28" name="NC/P28" type="bidirectional"/>
+        <pin num="29" name="NC/P29" type="bidirectional"/>
+        <pin num="30" name="GND" type="power_out"/>
+        <pin num="31" name="RF/P32" type="bidirectional"/>
+        <pin num="32" name="GND" type="power_out"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>D:\CAD\KiCad_6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic_MountingPin">
+      <uri>D:\CAD\KiCad_6.0\share\kicad\symbols\/Connector_Generic_MountingPin.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>D:\CAD\KiCad_6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>D:\CAD\KiCad_6.0\share\kicad\symbols\/Diode.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>D:\CAD\KiCad_6.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="SparkFun-Connectors">
+      <uri>D:/X/github.com/sparkfun/SparkFun-KiCad-Libraries/Libraries/SparkFun-Connectors.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>D:\CAD\KiCad_6.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+    <library logical="device_KC5">
+      <uri>D:\CAD\KiCad_6.0\share\kicad\3rdparty/symbols/From_KiCAD5/device.kicad_sym</uri>
+    </library>
+    <library logical="gg_Modules">
+      <uri>F:/CADmani/_Libas.Simboli/gg_Modules.kicad_sym</uri>
+    </library>
+    <library logical="gg_Power">
+      <uri>F:/CADmani/_Libas.Simboli/gg_Power.kicad_sym</uri>
+    </library>
+    <library logical="gg_RF_IC">
+      <uri>F:/CADmani/_Libas.Simboli/gg_RF_IC.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="FB1" pin="2" pintype="passive"/>
+      <node ref="FB2" pin="1" pintype="passive"/>
+      <node ref="M2" pin="16" pinfunction="+3V3" pintype="power_in"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="D3" pin="1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="VBUS" pintype="power_out"/>
+      <node ref="M2" pin="15" pinfunction="+5V" pintype="power_in"/>
+    </net>
+    <net code="3" name="+BATT">
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="D3" pin="2" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="M2" pin="13" pinfunction="+BATT" pintype="power_in"/>
+    </net>
+    <net code="4" name="/LED+">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+    </net>
+    <net code="5" name="/PIA">
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C24" pin="2" pintype="passive"/>
+      <node ref="FB6" pin="2" pintype="passive"/>
+      <node ref="U4" pin="5" pinfunction="VOUT" pintype="output"/>
+    </net>
+    <net code="6" name="/PIB">
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C25" pin="2" pintype="passive"/>
+      <node ref="FB7" pin="2" pintype="passive"/>
+      <node ref="U5" pin="5" pinfunction="VOUT" pintype="output"/>
+    </net>
+    <net code="7" name="/PIC">
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="C26" pin="2" pintype="passive"/>
+      <node ref="FB8" pin="2" pintype="passive"/>
+      <node ref="U6" pin="5" pinfunction="VOUT" pintype="output"/>
+    </net>
+    <net code="8" name="/PU0">
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="FB3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="VOUT" pintype="output"/>
+    </net>
+    <net code="9" name="/PU1">
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="FB4" pin="2" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="VOUT" pintype="output"/>
+    </net>
+    <net code="10" name="/PU2">
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="FB5" pin="2" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="VOUT" pintype="output"/>
+    </net>
+    <net code="11" name="/PVCC">
+      <node ref="FB1" pin="1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="VCC" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="/RVDD">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="FB2" pin="2" pintype="passive"/>
+      <node ref="M1" pin="17" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="13" name="/USB_DM">
+      <node ref="J1" pin="2" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="14" name="/USB_DP">
+      <node ref="J1" pin="3" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="15" name="BOOT">
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="M1" pin="26" pinfunction="PH3/BOOT/P26" pintype="bidirectional"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="16" name="ENIA">
+      <node ref="M2" pin="27" pinfunction="D20/PB5" pintype="bidirectional"/>
+      <node ref="U4" pin="3" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="17" name="ENIB">
+      <node ref="M2" pin="24" pinfunction="D15/PA15" pintype="bidirectional"/>
+      <node ref="U5" pin="3" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="18" name="ENIC">
+      <node ref="M2" pin="23" pinfunction="D14/PA14" pintype="bidirectional"/>
+      <node ref="U6" pin="3" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="19" name="ENU0">
+      <node ref="M2" pin="22" pinfunction="D12/PA12" pintype="bidirectional"/>
+      <node ref="U1" pin="3" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="20" name="ENU1">
+      <node ref="M2" pin="21" pinfunction="D11/PA11" pintype="bidirectional"/>
+      <node ref="U2" pin="3" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="21" name="ENU2">
+      <node ref="M2" pin="18" pinfunction="D8/PA8" pintype="bidirectional"/>
+      <node ref="U3" pin="3" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="22" name="GND">
+      <node ref="C1" pin="1" pintype="passive+no_connect"/>
+      <node ref="C10" pin="2" pintype="passive+no_connect"/>
+      <node ref="C11" pin="1" pintype="passive+no_connect"/>
+      <node ref="C12" pin="1" pintype="passive+no_connect"/>
+      <node ref="C13" pin="1" pintype="passive+no_connect"/>
+      <node ref="C14" pin="1" pintype="passive+no_connect"/>
+      <node ref="C15" pin="1" pintype="passive+no_connect"/>
+      <node ref="C16" pin="1" pintype="passive+no_connect"/>
+      <node ref="C17" pin="1" pintype="passive+no_connect"/>
+      <node ref="C18" pin="1" pintype="passive+no_connect"/>
+      <node ref="C19" pin="1" pintype="passive+no_connect"/>
+      <node ref="C2" pin="1" pintype="passive+no_connect"/>
+      <node ref="C20" pin="1" pintype="passive+no_connect"/>
+      <node ref="C21" pin="1" pintype="passive+no_connect"/>
+      <node ref="C22" pin="1" pintype="passive+no_connect"/>
+      <node ref="C23" pin="1" pintype="passive+no_connect"/>
+      <node ref="C24" pin="1" pintype="passive+no_connect"/>
+      <node ref="C25" pin="1" pintype="passive+no_connect"/>
+      <node ref="C26" pin="1" pintype="passive+no_connect"/>
+      <node ref="C3" pin="1" pintype="passive+no_connect"/>
+      <node ref="C4" pin="1" pintype="passive+no_connect"/>
+      <node ref="C5" pin="1" pintype="passive+no_connect"/>
+      <node ref="C6" pin="1" pintype="passive+no_connect"/>
+      <node ref="C7" pin="2" pintype="passive+no_connect"/>
+      <node ref="C8" pin="1" pintype="passive+no_connect"/>
+      <node ref="C9" pin="1" pintype="passive+no_connect"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive+no_connect"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive+no_connect"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive+no_connect"/>
+      <node ref="H1" pin="1" pinfunction="1" pintype="input+no_connect"/>
+      <node ref="H2" pin="1" pinfunction="1" pintype="input+no_connect"/>
+      <node ref="H3" pin="1" pinfunction="1" pintype="input+no_connect"/>
+      <node ref="H4" pin="1" pinfunction="1" pintype="input+no_connect"/>
+      <node ref="J1" pin="5" pinfunction="GND" pintype="power_out+no_connect"/>
+      <node ref="J1" pin="6" pinfunction="Shield" pintype="passive+no_connect"/>
+      <node ref="J2" pin="3" pinfunction="GND" pintype="bidirectional+no_connect"/>
+      <node ref="J2" pin="5" pinfunction="GND" pintype="bidirectional+no_connect"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive+no_connect"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive+no_connect"/>
+      <node ref="J4" pin="MP" pinfunction="MountPin" pintype="passive+no_connect"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive+no_connect"/>
+      <node ref="J5" pin="MP" pinfunction="MountPin" pintype="passive+no_connect"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive+no_connect"/>
+      <node ref="J6" pin="MP" pinfunction="MountPin" pintype="passive+no_connect"/>
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive+no_connect"/>
+      <node ref="J7" pin="MP" pinfunction="MountPin" pintype="passive+no_connect"/>
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive+no_connect"/>
+      <node ref="J8" pin="MP" pinfunction="MountPin" pintype="passive+no_connect"/>
+      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive+no_connect"/>
+      <node ref="J9" pin="MP" pinfunction="MountPin" pintype="passive+no_connect"/>
+      <node ref="M1" pin="1" pinfunction="GND" pintype="power_out+no_connect"/>
+      <node ref="M1" pin="11" pinfunction="GND" pintype="power_out+no_connect"/>
+      <node ref="M1" pin="13" pinfunction="P13/PB15" pintype="bidirectional+no_connect"/>
+      <node ref="M1" pin="14" pinfunction="P14/PB13" pintype="bidirectional+no_connect"/>
+      <node ref="M1" pin="15" pinfunction="P15/PB12" pintype="bidirectional+no_connect"/>
+      <node ref="M1" pin="16" pinfunction="GND" pintype="bidirectional+no_connect"/>
+      <node ref="M1" pin="22" pinfunction="GND" pintype="power_out+no_connect"/>
+      <node ref="M1" pin="27" pinfunction="GND" pintype="power_out+no_connect"/>
+      <node ref="M1" pin="30" pinfunction="GND" pintype="power_out+no_connect"/>
+      <node ref="M1" pin="32" pinfunction="GND" pintype="power_out+no_connect"/>
+      <node ref="M1" pin="6" pinfunction="GND" pintype="power_out+no_connect"/>
+      <node ref="M2" pin="14" pinfunction="GND" pintype="power_out+no_connect"/>
+      <node ref="M2" pin="17" pinfunction="GND" pintype="power_out+no_connect"/>
+      <node ref="R4" pin="2" pintype="passive+no_connect"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive+no_connect"/>
+      <node ref="SW3" pin="2" pinfunction="2" pintype="passive+no_connect"/>
+      <node ref="U1" pin="2" pinfunction="GND" pintype="power_out+no_connect"/>
+      <node ref="U2" pin="2" pinfunction="GND" pintype="power_out+no_connect"/>
+      <node ref="U3" pin="2" pinfunction="GND" pintype="power_out+no_connect"/>
+      <node ref="U4" pin="2" pinfunction="GND" pintype="power_out+no_connect"/>
+      <node ref="U5" pin="2" pinfunction="GND" pintype="power_out+no_connect"/>
+      <node ref="U6" pin="2" pinfunction="GND" pintype="power_out+no_connect"/>
+    </net>
+    <net code="23" name="GPIO1">
+      <node ref="M1" pin="25" pinfunction="PA3/P25" pintype="bidirectional"/>
+      <node ref="M2" pin="7" pinfunction="A4/PA4" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="GPIO2">
+      <node ref="M1" pin="23" pinfunction="PB9/I2C1_SDA/P23" pintype="bidirectional"/>
+      <node ref="M2" pin="9" pinfunction="A6/PA6" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="GREEN">
+      <node ref="M1" pin="4" pinfunction="P4/JTDO/PB3" pintype="bidirectional"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="27" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="28" name="Net-(FB3-Pad1)">
+      <node ref="FB3" pin="1" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="29" name="Net-(FB4-Pad1)">
+      <node ref="FB4" pin="1" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="30" name="Net-(FB5-Pad1)">
+      <node ref="FB5" pin="1" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="31" name="Net-(FB6-Pad1)">
+      <node ref="FB6" pin="1" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="32" name="Net-(FB7-Pad1)">
+      <node ref="FB7" pin="1" pintype="passive"/>
+      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(FB8-Pad1)">
+      <node ref="FB8" pin="1" pintype="passive"/>
+      <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(M2-Pad3)">
+      <node ref="M2" pin="3" pinfunction="A0/PA0/TX4" pintype="bidirectional"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+    </net>
+    <net code="35" name="Net-(M2-Pad4)">
+      <node ref="M2" pin="4" pinfunction="A1/PA1/RX4" pintype="bidirectional"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+    </net>
+    <net code="36" name="Net-(M2-Pad5)">
+      <node ref="M2" pin="5" pinfunction="A2/PA2/TX2" pintype="bidirectional"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+    </net>
+    <net code="37" name="Net-(M2-Pad6)">
+      <node ref="M2" pin="6" pinfunction="A3/PA3/RX2" pintype="bidirectional"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+    </net>
+    <net code="38" name="Net-(M2-Pad19)">
+      <node ref="M2" pin="19" pinfunction="D9/PA9/TX1" pintype="bidirectional"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+    </net>
+    <net code="39" name="Net-(M2-Pad20)">
+      <node ref="M2" pin="20" pinfunction="D10/PA10/RX1" pintype="bidirectional"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+    </net>
+    <net code="40" name="Net-(M2-Pad25)">
+      <node ref="M2" pin="25" pinfunction="D18/PB3/TX5" pintype="bidirectional"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+    </net>
+    <net code="41" name="Net-(M2-Pad26)">
+      <node ref="M2" pin="26" pinfunction="D19/PB4/RX5" pintype="bidirectional"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+    </net>
+    <net code="42" name="Net-(M2-Pad28)">
+      <node ref="M2" pin="28" pinfunction="D21/PB6/SCL1" pintype="bidirectional"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+    </net>
+    <net code="43" name="Net-(M2-Pad29)">
+      <node ref="M2" pin="29" pinfunction="D22/PB7/SDA1" pintype="bidirectional"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+    </net>
+    <net code="44" name="PPS">
+      <node ref="M1" pin="20" pinfunction="P20/PA8" pintype="bidirectional"/>
+      <node ref="M2" pin="10" pinfunction="A7/PA7" pintype="bidirectional"/>
+    </net>
+    <net code="45" name="RED">
+      <node ref="M1" pin="5" pinfunction="P5/JTDI/PA15" pintype="bidirectional"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="46" name="RXI0">
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+    </net>
+    <net code="47" name="RXI1">
+      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+    </net>
+    <net code="48" name="RXI2">
+      <node ref="J6" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+    </net>
+    <net code="49" name="SCL">
+      <node ref="J7" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J8" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J9" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="50" name="SDA">
+      <node ref="J7" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J8" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J9" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="51" name="SWDCLK">
+      <node ref="J2" pin="4" pinfunction="SWDCLK/TCK" pintype="bidirectional"/>
+      <node ref="M1" pin="2" pinfunction="P2/JTCK/SWCLK/PA14" pintype="bidirectional"/>
+    </net>
+    <net code="52" name="SWDIO">
+      <node ref="J2" pin="2" pinfunction="SWDIO/TMS" pintype="bidirectional"/>
+      <node ref="M1" pin="3" pinfunction="P3/JTMS/SWDIO/PA13" pintype="bidirectional"/>
+    </net>
+    <net code="53" name="TXM">
+      <node ref="M1" pin="18" pinfunction="P18/RxD1/T4C1/PA10/PB6" pintype="bidirectional"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+    </net>
+    <net code="54" name="TXO0">
+      <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+    </net>
+    <net code="55" name="TXO1">
+      <node ref="J5" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+    </net>
+    <net code="56" name="TXO2">
+      <node ref="J6" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+    </net>
+    <net code="57" name="TXR">
+      <node ref="M1" pin="19" pinfunction="P19/TxD1/PA9" pintype="bidirectional"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+    </net>
+    <net code="58" name="USB_N">
+      <node ref="M1" pin="8" pinfunction="P8/USB_N/PA11" pintype="bidirectional"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="59" name="USB_P">
+      <node ref="M1" pin="9" pinfunction="P9/USB_P/PA12" pintype="bidirectional"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="60" name="USER">
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="M1" pin="21" pinfunction="PB8/I2C1_SCL/P21" pintype="bidirectional"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="SW3" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="61" name="VPP">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D3" pin="3" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="VIN" pintype="input"/>
+      <node ref="U2" pin="1" pinfunction="VIN" pintype="input"/>
+      <node ref="U3" pin="1" pinfunction="VIN" pintype="input"/>
+      <node ref="U4" pin="1" pinfunction="VIN" pintype="input"/>
+      <node ref="U5" pin="1" pinfunction="VIN" pintype="input"/>
+      <node ref="U6" pin="1" pinfunction="VIN" pintype="input"/>
+    </net>
+    <net code="62" name="WAKE">
+      <node ref="M1" pin="24" pinfunction="PA2/P24" pintype="bidirectional"/>
+      <node ref="M2" pin="8" pinfunction="A5/PA5" pintype="bidirectional"/>
+    </net>
+    <net code="63" name="YELLOW">
+      <node ref="M1" pin="10" pinfunction="P10/PB7" pintype="bidirectional"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+    </net>
+    <net code="64" name="unconnected-(J1-Pad4)">
+      <node ref="J1" pin="4" pinfunction="ID" pintype="passive"/>
+    </net>
+    <net code="65" name="unconnected-(J2-Pad6)">
+      <node ref="J2" pin="6" pinfunction="SWO/TDO" pintype="bidirectional"/>
+    </net>
+    <net code="66" name="unconnected-(J2-Pad7)">
+      <node ref="J2" pin="7" pinfunction="KEY" pintype="bidirectional"/>
+    </net>
+    <net code="67" name="unconnected-(J2-Pad8)">
+      <node ref="J2" pin="8" pinfunction="NC/TDI" pintype="bidirectional"/>
+    </net>
+    <net code="68" name="unconnected-(J2-Pad9)">
+      <node ref="J2" pin="9" pinfunction="GNDDTCT" pintype="bidirectional"/>
+    </net>
+    <net code="69" name="unconnected-(M1-Pad12)">
+      <node ref="M1" pin="12" pinfunction="P12/PB14" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="70" name="unconnected-(M1-Pad28)">
+      <node ref="M1" pin="28" pinfunction="NC/P28" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="71" name="unconnected-(M1-Pad29)">
+      <node ref="M1" pin="29" pinfunction="NC/P29" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="72" name="unconnected-(M1-Pad31)">
+      <node ref="M1" pin="31" pinfunction="RF/P32" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="73" name="unconnected-(M2-Pad1)">
+      <node ref="M2" pin="1" pinfunction="D13/PA13" pintype="bidirectional"/>
+    </net>
+    <net code="74" name="unconnected-(M2-Pad11)">
+      <node ref="M2" pin="11" pinfunction="A8/D16/PB0" pintype="bidirectional"/>
+    </net>
+    <net code="75" name="unconnected-(M2-Pad12)">
+      <node ref="M2" pin="12" pinfunction="A9/D17/PB1" pintype="bidirectional"/>
+    </net>
+    <net code="76" name="unconnected-(M2-Pad30)">
+      <node ref="M2" pin="30" pinfunction="BOOT0" pintype="bidirectional"/>
+    </net>
+    <net code="77" name="unconnected-(U1-Pad4)">
+      <node ref="U1" pin="4" pinfunction="X" pintype="no_connect"/>
+    </net>
+    <net code="78" name="unconnected-(U2-Pad4)">
+      <node ref="U2" pin="4" pinfunction="X" pintype="no_connect"/>
+    </net>
+    <net code="79" name="unconnected-(U3-Pad4)">
+      <node ref="U3" pin="4" pinfunction="X" pintype="no_connect"/>
+    </net>
+    <net code="80" name="unconnected-(U4-Pad4)">
+      <node ref="U4" pin="4" pinfunction="X" pintype="no_connect"/>
+    </net>
+    <net code="81" name="unconnected-(U5-Pad4)">
+      <node ref="U5" pin="4" pinfunction="X" pintype="no_connect"/>
+    </net>
+    <net code="82" name="unconnected-(U6-Pad4)">
+      <node ref="U6" pin="4" pinfunction="X" pintype="no_connect"/>
+    </net>
+    <net code="83" name="~{RESET}">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="J2" pin="10" pinfunction="~{RESET}" pintype="bidirectional"/>
+      <node ref="M1" pin="7" pinfunction="P7/~{RESET}" pintype="bidirectional"/>
+      <node ref="M2" pin="2" pinfunction="~{RESET}" pintype="bidirectional"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+  </nets>
+</export>
